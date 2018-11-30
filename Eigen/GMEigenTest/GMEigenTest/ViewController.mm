@@ -6,6 +6,8 @@
 //  Copyright © 2018 杨一凡. All rights reserved.
 //
 
+#import <GMEigen/GMEigen.h>
+
 #import "ViewController.h"
 
 @interface ViewController ()
@@ -16,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    Eigen::MatrixXd src(2, 5);
 }
 
 
