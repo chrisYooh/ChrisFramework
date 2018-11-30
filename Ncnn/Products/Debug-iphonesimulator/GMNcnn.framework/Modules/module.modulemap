@@ -1,0 +1,6 @@
+framework module GMNcnn {
+  umbrella header "GMNcnn.h"
+
+  export *
+  module * { export * }
+}
