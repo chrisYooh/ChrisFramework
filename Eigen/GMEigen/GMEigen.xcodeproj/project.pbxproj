@@ -7,70 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F21C138121B11BE900FADBB5 /* Eigen in Headers */ = {isa = PBXBuildFile; fileRef = F21C137D21B119F900FADBB5 /* Eigen */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2C95BF321B10516008C23CC /* GMEigen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C95BE921B10516008C23CC /* GMEigen.framework */; };
 		F2C95BF821B10516008C23CC /* GMEigenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C95BF721B10516008C23CC /* GMEigenTests.m */; };
-		F2C95BFA21B10516008C23CC /* GMEigen.h in Headers */ = {isa = PBXBuildFile; fileRef = F2C95BEC21B10516008C23CC /* GMEigen.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2C95D5921B10546008C23CC /* CholmodSupport in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0421B10545008C23CC /* CholmodSupport */; };
-		F2C95D5A21B10546008C23CC /* StdVector in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0521B10545008C23CC /* StdVector */; };
-		F2C95D5B21B10546008C23CC /* StdDeque in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0621B10545008C23CC /* StdDeque */; };
-		F2C95D5C21B10546008C23CC /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0721B10545008C23CC /* CMakeLists.txt */; };
-		F2C95D5D21B10546008C23CC /* Core in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0821B10545008C23CC /* Core */; };
-		F2C95D5E21B10546008C23CC /* SparseLU in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0921B10545008C23CC /* SparseLU */; };
-		F2C95D5F21B10546008C23CC /* OrderingMethods in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0A21B10545008C23CC /* OrderingMethods */; };
-		F2C95D6021B10546008C23CC /* QtAlignedMalloc in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0B21B10545008C23CC /* QtAlignedMalloc */; };
-		F2C95D6121B10546008C23CC /* Householder in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0C21B10545008C23CC /* Householder */; };
-		F2C95D6221B10546008C23CC /* PardisoSupport in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0D21B10545008C23CC /* PardisoSupport */; };
-		F2C95D6321B10546008C23CC /* SparseCore in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0E21B10545008C23CC /* SparseCore */; };
-		F2C95D6421B10546008C23CC /* Jacobi in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C0F21B10545008C23CC /* Jacobi */; };
-		F2C95D6521B10546008C23CC /* Dense in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1021B10545008C23CC /* Dense */; };
-		F2C95D6621B10546008C23CC /* SPQRSupport in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1121B10545008C23CC /* SPQRSupport */; };
-		F2C95D6721B10546008C23CC /* QR in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1221B10545008C23CC /* QR */; };
-		F2C95D6821B10546008C23CC /* Eigen in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1321B10545008C23CC /* Eigen */; };
-		F2C95D6921B10546008C23CC /* SparseQR in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1421B10545008C23CC /* SparseQR */; };
-		F2C95D6A21B10546008C23CC /* SVD in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1521B10545008C23CC /* SVD */; };
-		F2C95D6B21B10546008C23CC /* Cholesky in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1621B10545008C23CC /* Cholesky */; };
-		F2C95D6C21B10546008C23CC /* UmfPackSupport in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1721B10545008C23CC /* UmfPackSupport */; };
-		F2C95D6D21B10546008C23CC /* IterativeLinearSolvers in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1821B10545008C23CC /* IterativeLinearSolvers */; };
-		F2C95D6E21B10546008C23CC /* LU in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1921B10545008C23CC /* LU */; };
-		F2C95D6F21B10546008C23CC /* Sparse in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1A21B10545008C23CC /* Sparse */; };
-		F2C95D7021B10546008C23CC /* Geometry in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1B21B10545008C23CC /* Geometry */; };
-		F2C95D7121B10546008C23CC /* SuperLUSupport in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1C21B10545008C23CC /* SuperLUSupport */; };
-		F2C95D7221B10546008C23CC /* StdList in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1D21B10545008C23CC /* StdList */; };
-		F2C95D7321B10546008C23CC /* MetisSupport in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1E21B10545008C23CC /* MetisSupport */; };
-		F2C95D7421B10546008C23CC /* SparseCholesky in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C1F21B10545008C23CC /* SparseCholesky */; };
-		F2C95D7521B10546008C23CC /* Eigenvalues in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C2021B10545008C23CC /* Eigenvalues */; };
-		F2C95D7621B10546008C23CC /* PaStiXSupport in Resources */ = {isa = PBXBuildFile; fileRef = F2C95C2121B10545008C23CC /* PaStiXSupport */; };
-		F2D78CEB21B1096400DA2BA5 /* Eigen in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1321B10545008C23CC /* Eigen */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CEC21B1098400DA2BA5 /* Dense in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1021B10545008C23CC /* Dense */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CED21B1098E00DA2BA5 /* Sparse in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1A21B10545008C23CC /* Sparse */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CEE21B109CB00DA2BA5 /* CholmodSupport in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0421B10545008C23CC /* CholmodSupport */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CEF21B109CB00DA2BA5 /* StdVector in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0521B10545008C23CC /* StdVector */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CF021B109CB00DA2BA5 /* StdDeque in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0621B10545008C23CC /* StdDeque */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CF221B109CB00DA2BA5 /* Core in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0821B10545008C23CC /* Core */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CF321B109CB00DA2BA5 /* SparseLU in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0921B10545008C23CC /* SparseLU */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CF421B109CB00DA2BA5 /* OrderingMethods in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0A21B10545008C23CC /* OrderingMethods */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CF521B109CB00DA2BA5 /* QtAlignedMalloc in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0B21B10545008C23CC /* QtAlignedMalloc */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CF621B109CB00DA2BA5 /* Householder in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0C21B10545008C23CC /* Householder */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CF721B109CB00DA2BA5 /* PardisoSupport in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0D21B10545008C23CC /* PardisoSupport */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CF821B109CB00DA2BA5 /* SparseCore in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0E21B10545008C23CC /* SparseCore */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CF921B109CB00DA2BA5 /* Jacobi in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C0F21B10545008C23CC /* Jacobi */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CFA21B109CB00DA2BA5 /* SPQRSupport in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1121B10545008C23CC /* SPQRSupport */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CFB21B109CB00DA2BA5 /* QR in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1221B10545008C23CC /* QR */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CFC21B109CB00DA2BA5 /* SparseQR in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1421B10545008C23CC /* SparseQR */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CFD21B109CB00DA2BA5 /* SVD in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1521B10545008C23CC /* SVD */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CFE21B109CB00DA2BA5 /* Cholesky in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1621B10545008C23CC /* Cholesky */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78CFF21B109CB00DA2BA5 /* UmfPackSupport in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1721B10545008C23CC /* UmfPackSupport */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0021B109CB00DA2BA5 /* IterativeLinearSolvers in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1821B10545008C23CC /* IterativeLinearSolvers */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0121B109CB00DA2BA5 /* LU in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1921B10545008C23CC /* LU */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0221B109CB00DA2BA5 /* Geometry in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1B21B10545008C23CC /* Geometry */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0321B109CB00DA2BA5 /* SuperLUSupport in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1C21B10545008C23CC /* SuperLUSupport */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0421B109CB00DA2BA5 /* StdList in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1D21B10545008C23CC /* StdList */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0521B109CB00DA2BA5 /* MetisSupport in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1E21B10545008C23CC /* MetisSupport */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0621B109CB00DA2BA5 /* SparseCholesky in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C1F21B10545008C23CC /* SparseCholesky */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0721B109CB00DA2BA5 /* Eigenvalues in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C2021B10545008C23CC /* Eigenvalues */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0821B109CB00DA2BA5 /* PaStiXSupport in Headers */ = {isa = PBXBuildFile; fileRef = F2C95C2121B10545008C23CC /* PaStiXSupport */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D78D0A21B10B1600DA2BA5 /* src in Resources */ = {isa = PBXBuildFile; fileRef = F2D78D0921B10B1600DA2BA5 /* src */; };
-		F2D78D0B21B10B2300DA2BA5 /* src in Headers */ = {isa = PBXBuildFile; fileRef = F2D78D0921B10B1600DA2BA5 /* src */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,43 +23,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F21C137D21B119F900FADBB5 /* Eigen */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Eigen; sourceTree = "<group>"; };
 		F2C95BE921B10516008C23CC /* GMEigen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMEigen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2C95BEC21B10516008C23CC /* GMEigen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMEigen.h; sourceTree = "<group>"; };
 		F2C95BED21B10516008C23CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2C95BF221B10516008C23CC /* GMEigenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GMEigenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C95BF721B10516008C23CC /* GMEigenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMEigenTests.m; sourceTree = "<group>"; };
 		F2C95BF921B10516008C23CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2C95C0421B10545008C23CC /* CholmodSupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CholmodSupport; sourceTree = "<group>"; };
-		F2C95C0521B10545008C23CC /* StdVector */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StdVector; sourceTree = "<group>"; };
-		F2C95C0621B10545008C23CC /* StdDeque */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StdDeque; sourceTree = "<group>"; };
-		F2C95C0721B10545008C23CC /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
-		F2C95C0821B10545008C23CC /* Core */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Core; sourceTree = "<group>"; };
-		F2C95C0921B10545008C23CC /* SparseLU */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SparseLU; sourceTree = "<group>"; };
-		F2C95C0A21B10545008C23CC /* OrderingMethods */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OrderingMethods; sourceTree = "<group>"; };
-		F2C95C0B21B10545008C23CC /* QtAlignedMalloc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QtAlignedMalloc; sourceTree = "<group>"; };
-		F2C95C0C21B10545008C23CC /* Householder */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Householder; sourceTree = "<group>"; };
-		F2C95C0D21B10545008C23CC /* PardisoSupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PardisoSupport; sourceTree = "<group>"; };
-		F2C95C0E21B10545008C23CC /* SparseCore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SparseCore; sourceTree = "<group>"; };
-		F2C95C0F21B10545008C23CC /* Jacobi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Jacobi; sourceTree = "<group>"; };
-		F2C95C1021B10545008C23CC /* Dense */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dense; sourceTree = "<group>"; };
-		F2C95C1121B10545008C23CC /* SPQRSupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SPQRSupport; sourceTree = "<group>"; };
-		F2C95C1221B10545008C23CC /* QR */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QR; sourceTree = "<group>"; };
-		F2C95C1321B10545008C23CC /* Eigen */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eigen; sourceTree = "<group>"; };
-		F2C95C1421B10545008C23CC /* SparseQR */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SparseQR; sourceTree = "<group>"; };
-		F2C95C1521B10545008C23CC /* SVD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SVD; sourceTree = "<group>"; };
-		F2C95C1621B10545008C23CC /* Cholesky */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cholesky; sourceTree = "<group>"; };
-		F2C95C1721B10545008C23CC /* UmfPackSupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = UmfPackSupport; sourceTree = "<group>"; };
-		F2C95C1821B10545008C23CC /* IterativeLinearSolvers */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IterativeLinearSolvers; sourceTree = "<group>"; };
-		F2C95C1921B10545008C23CC /* LU */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LU; sourceTree = "<group>"; };
-		F2C95C1A21B10545008C23CC /* Sparse */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sparse; sourceTree = "<group>"; };
-		F2C95C1B21B10545008C23CC /* Geometry */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Geometry; sourceTree = "<group>"; };
-		F2C95C1C21B10545008C23CC /* SuperLUSupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SuperLUSupport; sourceTree = "<group>"; };
-		F2C95C1D21B10545008C23CC /* StdList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StdList; sourceTree = "<group>"; };
-		F2C95C1E21B10545008C23CC /* MetisSupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MetisSupport; sourceTree = "<group>"; };
-		F2C95C1F21B10545008C23CC /* SparseCholesky */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SparseCholesky; sourceTree = "<group>"; };
-		F2C95C2021B10545008C23CC /* Eigenvalues */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Eigenvalues; sourceTree = "<group>"; };
-		F2C95C2121B10545008C23CC /* PaStiXSupport */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PaStiXSupport; sourceTree = "<group>"; };
-		F2D78D0921B10B1600DA2BA5 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +53,7 @@
 		F2C95BDF21B10516008C23CC = {
 			isa = PBXGroup;
 			children = (
-				F2C95C0321B10545008C23CC /* Eigen */,
+				F21C137D21B119F900FADBB5 /* Eigen */,
 				F2C95BEB21B10516008C23CC /* GMEigen */,
 				F2C95BF621B10516008C23CC /* GMEigenTests */,
 				F2C95BEA21B10516008C23CC /* Products */,
@@ -164,7 +72,6 @@
 		F2C95BEB21B10516008C23CC /* GMEigen */ = {
 			isa = PBXGroup;
 			children = (
-				F2C95BEC21B10516008C23CC /* GMEigen.h */,
 				F2C95BED21B10516008C23CC /* Info.plist */,
 			);
 			path = GMEigen;
@@ -179,44 +86,6 @@
 			path = GMEigenTests;
 			sourceTree = "<group>";
 		};
-		F2C95C0321B10545008C23CC /* Eigen */ = {
-			isa = PBXGroup;
-			children = (
-				F2C95C0421B10545008C23CC /* CholmodSupport */,
-				F2C95C0521B10545008C23CC /* StdVector */,
-				F2C95C0621B10545008C23CC /* StdDeque */,
-				F2C95C0721B10545008C23CC /* CMakeLists.txt */,
-				F2C95C0821B10545008C23CC /* Core */,
-				F2C95C0921B10545008C23CC /* SparseLU */,
-				F2C95C0A21B10545008C23CC /* OrderingMethods */,
-				F2C95C0B21B10545008C23CC /* QtAlignedMalloc */,
-				F2C95C0C21B10545008C23CC /* Householder */,
-				F2C95C0D21B10545008C23CC /* PardisoSupport */,
-				F2C95C0E21B10545008C23CC /* SparseCore */,
-				F2C95C0F21B10545008C23CC /* Jacobi */,
-				F2C95C1021B10545008C23CC /* Dense */,
-				F2C95C1121B10545008C23CC /* SPQRSupport */,
-				F2C95C1221B10545008C23CC /* QR */,
-				F2C95C1321B10545008C23CC /* Eigen */,
-				F2C95C1421B10545008C23CC /* SparseQR */,
-				F2C95C1521B10545008C23CC /* SVD */,
-				F2C95C1621B10545008C23CC /* Cholesky */,
-				F2C95C1721B10545008C23CC /* UmfPackSupport */,
-				F2C95C1821B10545008C23CC /* IterativeLinearSolvers */,
-				F2C95C1921B10545008C23CC /* LU */,
-				F2C95C1A21B10545008C23CC /* Sparse */,
-				F2C95C1B21B10545008C23CC /* Geometry */,
-				F2C95C1C21B10545008C23CC /* SuperLUSupport */,
-				F2C95C1D21B10545008C23CC /* StdList */,
-				F2C95C1E21B10545008C23CC /* MetisSupport */,
-				F2C95C1F21B10545008C23CC /* SparseCholesky */,
-				F2C95C2021B10545008C23CC /* Eigenvalues */,
-				F2C95C2121B10545008C23CC /* PaStiXSupport */,
-				F2D78D0921B10B1600DA2BA5 /* src */,
-			);
-			path = Eigen;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -224,37 +93,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D78CEB21B1096400DA2BA5 /* Eigen in Headers */,
-				F2D78CED21B1098E00DA2BA5 /* Sparse in Headers */,
-				F2D78CEE21B109CB00DA2BA5 /* CholmodSupport in Headers */,
-				F2D78CEF21B109CB00DA2BA5 /* StdVector in Headers */,
-				F2D78CF021B109CB00DA2BA5 /* StdDeque in Headers */,
-				F2D78CF221B109CB00DA2BA5 /* Core in Headers */,
-				F2D78CF321B109CB00DA2BA5 /* SparseLU in Headers */,
-				F2D78CF421B109CB00DA2BA5 /* OrderingMethods in Headers */,
-				F2D78CF521B109CB00DA2BA5 /* QtAlignedMalloc in Headers */,
-				F2D78CF621B109CB00DA2BA5 /* Householder in Headers */,
-				F2D78CF721B109CB00DA2BA5 /* PardisoSupport in Headers */,
-				F2D78CF821B109CB00DA2BA5 /* SparseCore in Headers */,
-				F2D78CF921B109CB00DA2BA5 /* Jacobi in Headers */,
-				F2D78CFA21B109CB00DA2BA5 /* SPQRSupport in Headers */,
-				F2D78CFB21B109CB00DA2BA5 /* QR in Headers */,
-				F2D78CFC21B109CB00DA2BA5 /* SparseQR in Headers */,
-				F2D78CFD21B109CB00DA2BA5 /* SVD in Headers */,
-				F2D78CFE21B109CB00DA2BA5 /* Cholesky in Headers */,
-				F2D78CFF21B109CB00DA2BA5 /* UmfPackSupport in Headers */,
-				F2D78D0021B109CB00DA2BA5 /* IterativeLinearSolvers in Headers */,
-				F2D78D0121B109CB00DA2BA5 /* LU in Headers */,
-				F2D78D0221B109CB00DA2BA5 /* Geometry in Headers */,
-				F2D78D0321B109CB00DA2BA5 /* SuperLUSupport in Headers */,
-				F2D78D0421B109CB00DA2BA5 /* StdList in Headers */,
-				F2D78D0521B109CB00DA2BA5 /* MetisSupport in Headers */,
-				F2D78D0621B109CB00DA2BA5 /* SparseCholesky in Headers */,
-				F2D78D0721B109CB00DA2BA5 /* Eigenvalues in Headers */,
-				F2D78D0821B109CB00DA2BA5 /* PaStiXSupport in Headers */,
-				F2D78CEC21B1098400DA2BA5 /* Dense in Headers */,
-				F2D78D0B21B10B2300DA2BA5 /* src in Headers */,
-				F2C95BFA21B10516008C23CC /* GMEigen.h in Headers */,
+				F21C138121B11BE900FADBB5 /* Eigen in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,37 +176,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C95D6A21B10546008C23CC /* SVD in Resources */,
-				F2C95D6721B10546008C23CC /* QR in Resources */,
-				F2C95D6921B10546008C23CC /* SparseQR in Resources */,
-				F2C95D6621B10546008C23CC /* SPQRSupport in Resources */,
-				F2C95D7021B10546008C23CC /* Geometry in Resources */,
-				F2C95D7321B10546008C23CC /* MetisSupport in Resources */,
-				F2C95D7421B10546008C23CC /* SparseCholesky in Resources */,
-				F2C95D6F21B10546008C23CC /* Sparse in Resources */,
-				F2C95D6021B10546008C23CC /* QtAlignedMalloc in Resources */,
-				F2C95D5C21B10546008C23CC /* CMakeLists.txt in Resources */,
-				F2C95D6321B10546008C23CC /* SparseCore in Resources */,
-				F2C95D7521B10546008C23CC /* Eigenvalues in Resources */,
-				F2C95D5E21B10546008C23CC /* SparseLU in Resources */,
-				F2C95D5F21B10546008C23CC /* OrderingMethods in Resources */,
-				F2C95D6B21B10546008C23CC /* Cholesky in Resources */,
-				F2C95D6C21B10546008C23CC /* UmfPackSupport in Resources */,
-				F2C95D6121B10546008C23CC /* Householder in Resources */,
-				F2C95D6421B10546008C23CC /* Jacobi in Resources */,
-				F2C95D5B21B10546008C23CC /* StdDeque in Resources */,
-				F2C95D7621B10546008C23CC /* PaStiXSupport in Resources */,
-				F2C95D6521B10546008C23CC /* Dense in Resources */,
-				F2C95D6E21B10546008C23CC /* LU in Resources */,
-				F2C95D7221B10546008C23CC /* StdList in Resources */,
-				F2C95D5921B10546008C23CC /* CholmodSupport in Resources */,
-				F2C95D6D21B10546008C23CC /* IterativeLinearSolvers in Resources */,
-				F2C95D6221B10546008C23CC /* PardisoSupport in Resources */,
-				F2C95D6821B10546008C23CC /* Eigen in Resources */,
-				F2C95D5D21B10546008C23CC /* Core in Resources */,
-				F2D78D0A21B10B1600DA2BA5 /* src in Resources */,
-				F2C95D7121B10546008C23CC /* SuperLUSupport in Resources */,
-				F2C95D5A21B10546008C23CC /* StdVector in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
