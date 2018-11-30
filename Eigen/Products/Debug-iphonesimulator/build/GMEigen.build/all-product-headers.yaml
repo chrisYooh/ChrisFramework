@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yangyifan/Documents/workingcopys/ChrisFrameworks/Eigen/Products/Debug-iphonesimulator/GMEigen.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "GMEigen-Swift.h",
+          'external-contents': "/Users/yangyifan/Documents/workingcopys/ChrisFrameworks/Eigen/Products/Debug-iphonesimulator/GMEigen.framework/Headers/GMEigen-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "GMEigen.h",
+          'external-contents': "/Users/yangyifan/Documents/workingcopys/ChrisFrameworks/Eigen/GMEigen/GMEigen/GMEigen.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yangyifan/Documents/workingcopys/ChrisFrameworks/Eigen/Products/Debug-iphonesimulator/GMEigen.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yangyifan/Documents/workingcopys/ChrisFrameworks/Eigen/Products/Debug-iphonesimulator/build/GMEigen.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

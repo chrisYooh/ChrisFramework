@@ -1,0 +1,6 @@
+framework module GMEigen {
+  umbrella header "GMEigen.h"
+
+  export *
+  module * { export * }
+}
