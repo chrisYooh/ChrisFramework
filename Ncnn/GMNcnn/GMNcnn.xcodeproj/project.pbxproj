@@ -7,6 +7,225 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F20602A021BA10520016DD66 /* modelbin.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601C621BA10510016DD66 /* modelbin.h */; };
+		F20602A121BA10520016DD66 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = F20601C721BA10510016DD66 /* CMakeLists.txt */; };
+		F20602A221BA10520016DD66 /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601C821BA10510016DD66 /* net.h */; };
+		F20602A321BA10520016DD66 /* mat.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601C921BA10510016DD66 /* mat.h */; };
+		F20602A421BA10520016DD66 /* platform.h.in in Resources */ = {isa = PBXBuildFile; fileRef = F20601CA21BA10510016DD66 /* platform.h.in */; };
+		F20602A521BA10520016DD66 /* blob.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601CB21BA10510016DD66 /* blob.h */; };
+		F20602A621BA10520016DD66 /* blob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601CC21BA10510016DD66 /* blob.cpp */; };
+		F20602A721BA10520016DD66 /* layer.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601CD21BA10510016DD66 /* layer.h */; };
+		F20602A821BA10520016DD66 /* layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601CE21BA10510016DD66 /* layer.cpp */; };
+		F20602A921BA10520016DD66 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601CF21BA10510016DD66 /* benchmark.cpp */; };
+		F20602AA21BA10520016DD66 /* net.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601D021BA10510016DD66 /* net.cpp */; };
+		F20602AB21BA10520016DD66 /* paramdict.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601D121BA10510016DD66 /* paramdict.h */; };
+		F20602AC21BA10520016DD66 /* flatten.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601D321BA10510016DD66 /* flatten.cpp */; };
+		F20602AD21BA10520016DD66 /* softmax.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601D421BA10510016DD66 /* softmax.h */; };
+		F20602AE21BA10520016DD66 /* squeeze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601D521BA10510016DD66 /* squeeze.cpp */; };
+		F20602AF21BA10520016DD66 /* dropout.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601D621BA10510016DD66 /* dropout.cpp */; };
+		F20602B021BA10520016DD66 /* quantize.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601D721BA10510016DD66 /* quantize.h */; };
+		F20602B121BA10520016DD66 /* dequantize.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601D821BA10510016DD66 /* dequantize.h */; };
+		F20602B221BA10520016DD66 /* permute.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601D921BA10510016DD66 /* permute.h */; };
+		F20602B321BA10520016DD66 /* batchnorm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601DA21BA10510016DD66 /* batchnorm.cpp */; };
+		F20602B421BA10520016DD66 /* argmax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601DB21BA10510016DD66 /* argmax.cpp */; };
+		F20602B521BA10520016DD66 /* shufflechannel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601DC21BA10510016DD66 /* shufflechannel.cpp */; };
+		F20602B621BA10520016DD66 /* scale.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601DD21BA10510016DD66 /* scale.h */; };
+		F20602B721BA10520016DD66 /* power.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601DE21BA10510016DD66 /* power.h */; };
+		F20602B821BA10520016DD66 /* flatten.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601DF21BA10510016DD66 /* flatten.h */; };
+		F20602B921BA10520016DD66 /* embed.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601E021BA10510016DD66 /* embed.h */; };
+		F20602BA21BA10520016DD66 /* roialign.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601E121BA10510016DD66 /* roialign.h */; };
+		F20602BB21BA10520016DD66 /* dequantize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601E221BA10510016DD66 /* dequantize.cpp */; };
+		F20602BC21BA10520016DD66 /* input.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601E321BA10510016DD66 /* input.h */; };
+		F20602BD21BA10520016DD66 /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601E421BA10510016DD66 /* log.cpp */; };
+		F20602BE21BA10520016DD66 /* detectionoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601E521BA10510016DD66 /* detectionoutput.cpp */; };
+		F20602BF21BA10520016DD66 /* memorydata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601E621BA10510016DD66 /* memorydata.cpp */; };
+		F20602C021BA10520016DD66 /* eltwise.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601E721BA10510016DD66 /* eltwise.h */; };
+		F20602C121BA10520016DD66 /* input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601E821BA10510016DD66 /* input.cpp */; };
+		F20602C221BA10520016DD66 /* reshape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601E921BA10510016DD66 /* reshape.cpp */; };
+		F20602C321BA10520016DD66 /* rnn.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601EA21BA10510016DD66 /* rnn.h */; };
+		F20602C421BA10520016DD66 /* sigmoid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601EB21BA10510016DD66 /* sigmoid.cpp */; };
+		F20602C521BA10520016DD66 /* shufflechannel.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601EC21BA10510016DD66 /* shufflechannel.h */; };
+		F20602C621BA10520016DD66 /* deconvolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601ED21BA10510016DD66 /* deconvolution.cpp */; };
+		F20602C721BA10520016DD66 /* interp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601EE21BA10510016DD66 /* interp.cpp */; };
+		F20602C821BA10520016DD66 /* deconvolutiondepthwise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601EF21BA10510016DD66 /* deconvolutiondepthwise.cpp */; };
+		F20602C921BA10520016DD66 /* tile.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601F021BA10510016DD66 /* tile.h */; };
+		F20602CA21BA10520016DD66 /* psroipooling.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601F121BA10510016DD66 /* psroipooling.h */; };
+		F20602CB21BA10520016DD66 /* batchnorm.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601F221BA10510016DD66 /* batchnorm.h */; };
+		F20602CC21BA10520016DD66 /* tanh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601F321BA10510016DD66 /* tanh.cpp */; };
+		F20602CD21BA10520016DD66 /* expanddims.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601F421BA10510016DD66 /* expanddims.cpp */; };
+		F20602CE21BA10520016DD66 /* relu.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601F521BA10510016DD66 /* relu.h */; };
+		F20602CF21BA10520016DD66 /* split.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601F621BA10510016DD66 /* split.cpp */; };
+		F20602D021BA10520016DD66 /* reorg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601F721BA10510016DD66 /* reorg.cpp */; };
+		F20602D121BA10520016DD66 /* roipooling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601F821BA10510016DD66 /* roipooling.cpp */; };
+		F20602D221BA10520016DD66 /* convolution.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601F921BA10510016DD66 /* convolution.h */; };
+		F20602D321BA10520016DD66 /* reduction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601FA21BA10510016DD66 /* reduction.cpp */; };
+		F20602D421BA10520016DD66 /* permute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601FB21BA10510016DD66 /* permute.cpp */; };
+		F20602D521BA10520016DD66 /* proposal.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601FC21BA10510016DD66 /* proposal.h */; };
+		F20602D621BA10520016DD66 /* bnll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601FD21BA10510016DD66 /* bnll.cpp */; };
+		F20602D721BA10520016DD66 /* elu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601FE21BA10510016DD66 /* elu.cpp */; };
+		F20602D821BA10520016DD66 /* exp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601FF21BA10510016DD66 /* exp.cpp */; };
+		F20602D921BA10520016DD66 /* instancenorm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206020021BA10510016DD66 /* instancenorm.h */; };
+		F20602DA21BA10520016DD66 /* relu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206020121BA10510016DD66 /* relu.cpp */; };
+		F20602DB21BA10520016DD66 /* embed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206020221BA10510016DD66 /* embed.cpp */; };
+		F20602DC21BA10520016DD66 /* bias.h in Headers */ = {isa = PBXBuildFile; fileRef = F206020321BA10510016DD66 /* bias.h */; };
+		F20602DD21BA10520016DD66 /* prelu.h in Headers */ = {isa = PBXBuildFile; fileRef = F206020421BA10510016DD66 /* prelu.h */; };
+		F20602DE21BA10520016DD66 /* absval.h in Headers */ = {isa = PBXBuildFile; fileRef = F206020521BA10510016DD66 /* absval.h */; };
+		F20602DF21BA10520016DD66 /* slice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206020621BA10510016DD66 /* slice.cpp */; };
+		F20602E021BA10520016DD66 /* slice.h in Headers */ = {isa = PBXBuildFile; fileRef = F206020721BA10510016DD66 /* slice.h */; };
+		F20602E121BA10520016DD66 /* lrn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206020821BA10510016DD66 /* lrn.cpp */; };
+		F20602E221BA10520016DD66 /* normalize.h in Headers */ = {isa = PBXBuildFile; fileRef = F206020921BA10510016DD66 /* normalize.h */; };
+		F20602E321BA10520016DD66 /* instancenorm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206020A21BA10510016DD66 /* instancenorm.cpp */; };
+		F20602E421BA10520016DD66 /* spp.h in Headers */ = {isa = PBXBuildFile; fileRef = F206020B21BA10510016DD66 /* spp.h */; };
+		F20602E521BA10520016DD66 /* proposal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206020C21BA10510016DD66 /* proposal.cpp */; };
+		F20602E621BA10520016DD66 /* eltwise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206020D21BA10510016DD66 /* eltwise.cpp */; };
+		F20602E721BA10520016DD66 /* prelu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206020E21BA10510016DD66 /* prelu.cpp */; };
+		F20602E821BA10520016DD66 /* pooling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206020F21BA10510016DD66 /* pooling.cpp */; };
+		F20602E921BA10520016DD66 /* priorbox.h in Headers */ = {isa = PBXBuildFile; fileRef = F206021021BA10510016DD66 /* priorbox.h */; };
+		F20602EA21BA10520016DD66 /* lstm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206021121BA10510016DD66 /* lstm.h */; };
+		F20602EB21BA10520016DD66 /* spp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021221BA10510016DD66 /* spp.cpp */; };
+		F20602EC21BA10520016DD66 /* lstm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021321BA10510016DD66 /* lstm.cpp */; };
+		F20602ED21BA10520016DD66 /* threshold.h in Headers */ = {isa = PBXBuildFile; fileRef = F206021421BA10510016DD66 /* threshold.h */; };
+		F20602EE21BA10520016DD66 /* normalize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021521BA10510016DD66 /* normalize.cpp */; };
+		F20602EF21BA10520016DD66 /* concat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021621BA10510016DD66 /* concat.cpp */; };
+		F20602F021BA10520016DD66 /* concat.h in Headers */ = {isa = PBXBuildFile; fileRef = F206021721BA10510016DD66 /* concat.h */; };
+		F20602F121BA10520016DD66 /* tanh.h in Headers */ = {isa = PBXBuildFile; fileRef = F206021821BA10510016DD66 /* tanh.h */; };
+		F20602F221BA10520016DD66 /* convolutiondepthwise.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021921BA10510016DD66 /* convolutiondepthwise.cpp */; };
+		F20602F321BA10520016DD66 /* rnn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021A21BA10510016DD66 /* rnn.cpp */; };
+		F20602F421BA10520016DD66 /* convolutiondepthwise.h in Headers */ = {isa = PBXBuildFile; fileRef = F206021B21BA10510016DD66 /* convolutiondepthwise.h */; };
+		F20602F521BA10520016DD66 /* crop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021C21BA10510016DD66 /* crop.cpp */; };
+		F20602F621BA10520016DD66 /* psroipooling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021D21BA10510016DD66 /* psroipooling.cpp */; };
+		F20602F721BA10520016DD66 /* power.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021E21BA10510016DD66 /* power.cpp */; };
+		F20602F821BA10520016DD66 /* mvn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206021F21BA10510016DD66 /* mvn.cpp */; };
+		F20602F921BA10520016DD66 /* dropout.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022021BA10510016DD66 /* dropout.h */; };
+		F20602FA21BA10520016DD66 /* elu.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022121BA10510016DD66 /* elu.h */; };
+		F20602FB21BA10520016DD66 /* priorbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206022221BA10510016DD66 /* priorbox.cpp */; };
+		F20602FC21BA10520016DD66 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022321BA10510016DD66 /* log.h */; };
+		F20602FD21BA10520016DD66 /* clip.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022421BA10510016DD66 /* clip.h */; };
+		F20602FE21BA10520016DD66 /* reshape.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022521BA10510016DD66 /* reshape.h */; };
+		F20602FF21BA10520016DD66 /* crop.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022621BA10510016DD66 /* crop.h */; };
+		F206030021BA10520016DD66 /* convolution_1x1.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022821BA10510016DD66 /* convolution_1x1.h */; };
+		F206030121BA10520016DD66 /* convolutiondepthwise_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022921BA10510016DD66 /* convolutiondepthwise_x86.h */; };
+		F206030221BA10520016DD66 /* convolution_1x1_int8.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022A21BA10510016DD66 /* convolution_1x1_int8.h */; };
+		F206030321BA10520016DD66 /* convolution_5x5.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022B21BA10510016DD66 /* convolution_5x5.h */; };
+		F206030421BA10520016DD66 /* convolutiondepthwise_3x3.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022C21BA10510016DD66 /* convolutiondepthwise_3x3.h */; };
+		F206030521BA10520016DD66 /* convolutiondepthwise_x86.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206022D21BA10510016DD66 /* convolutiondepthwise_x86.cpp */; };
+		F206030621BA10520016DD66 /* convolutiondepthwise_3x3_int8.h in Headers */ = {isa = PBXBuildFile; fileRef = F206022E21BA10510016DD66 /* convolutiondepthwise_3x3_int8.h */; };
+		F206030721BA10520016DD66 /* convolution_x86.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206022F21BA10510016DD66 /* convolution_x86.cpp */; };
+		F206030821BA10520016DD66 /* convolution_3x3.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023021BA10510016DD66 /* convolution_3x3.h */; };
+		F206030921BA10520016DD66 /* sse_mathfun.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023121BA10510016DD66 /* sse_mathfun.h */; };
+		F206030A21BA10520016DD66 /* convolution_3x3_int8.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023221BA10510016DD66 /* convolution_3x3_int8.h */; };
+		F206030B21BA10520016DD66 /* convolution_x86.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023321BA10510016DD66 /* convolution_x86.h */; };
+		F206030C21BA10520016DD66 /* avx_mathfun.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023421BA10510016DD66 /* avx_mathfun.h */; };
+		F206030D21BA10520016DD66 /* memorydata.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023521BA10510016DD66 /* memorydata.h */; };
+		F206030E21BA10520016DD66 /* innerproduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206023621BA10510016DD66 /* innerproduct.cpp */; };
+		F206030F21BA10520016DD66 /* argmax.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023721BA10510016DD66 /* argmax.h */; };
+		F206031021BA10520016DD66 /* yolov3detectionoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023821BA10510016DD66 /* yolov3detectionoutput.h */; };
+		F206031121BA10520016DD66 /* sigmoid.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023921BA10510016DD66 /* sigmoid.h */; };
+		F206031221BA10520016DD66 /* softmax.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206023A21BA10510016DD66 /* softmax.cpp */; };
+		F206031321BA10520016DD66 /* deconvolutiondepthwise.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023B21BA10510016DD66 /* deconvolutiondepthwise.h */; };
+		F206031421BA10520016DD66 /* bnll.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023C21BA10510016DD66 /* bnll.h */; };
+		F206031521BA10520016DD66 /* clip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206023D21BA10510016DD66 /* clip.cpp */; };
+		F206031621BA10520016DD66 /* padding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206023E21BA10510016DD66 /* padding.cpp */; };
+		F206031721BA10520016DD66 /* reorg.h in Headers */ = {isa = PBXBuildFile; fileRef = F206023F21BA10510016DD66 /* reorg.h */; };
+		F206031821BA10520016DD66 /* roipooling.h in Headers */ = {isa = PBXBuildFile; fileRef = F206024021BA10510016DD66 /* roipooling.h */; };
+		F206031921BA10520016DD66 /* threshold.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206024121BA10510016DD66 /* threshold.cpp */; };
+		F206031A21BA10520016DD66 /* quantize.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206024221BA10510016DD66 /* quantize.cpp */; };
+		F206031B21BA10520016DD66 /* yolov3detectionoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206024321BA10510016DD66 /* yolov3detectionoutput.cpp */; };
+		F206031C21BA10520016DD66 /* tile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206024421BA10510016DD66 /* tile.cpp */; };
+		F206031D21BA10520016DD66 /* detectionoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = F206024521BA10510016DD66 /* detectionoutput.h */; };
+		F206031E21BA10520016DD66 /* exp.h in Headers */ = {isa = PBXBuildFile; fileRef = F206024621BA10510016DD66 /* exp.h */; };
+		F206031F21BA10520016DD66 /* pooling.h in Headers */ = {isa = PBXBuildFile; fileRef = F206024721BA10510016DD66 /* pooling.h */; };
+		F206032021BA10520016DD66 /* relu_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206024921BA10510016DD66 /* relu_arm.cpp */; };
+		F206032121BA10520016DD66 /* deconvolution_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206024A21BA10520016DD66 /* deconvolution_arm.cpp */; };
+		F206032221BA10520016DD66 /* convolution_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206024B21BA10520016DD66 /* convolution_arm.cpp */; };
+		F206032321BA10520016DD66 /* dequantize_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206024C21BA10520016DD66 /* dequantize_arm.cpp */; };
+		F206032421BA10520016DD66 /* lrn_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206024D21BA10520016DD66 /* lrn_arm.h */; };
+		F206032521BA10520016DD66 /* convolution_1x1.h in Headers */ = {isa = PBXBuildFile; fileRef = F206024E21BA10520016DD66 /* convolution_1x1.h */; };
+		F206032621BA10520016DD66 /* convolutiondepthwise_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206024F21BA10520016DD66 /* convolutiondepthwise_arm.h */; };
+		F206032721BA10520016DD66 /* batchnorm_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206025021BA10520016DD66 /* batchnorm_arm.cpp */; };
+		F206032821BA10520016DD66 /* convolutiondepthwise_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206025121BA10520016DD66 /* convolutiondepthwise_arm.cpp */; };
+		F206032921BA10520016DD66 /* innerproduct_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025221BA10520016DD66 /* innerproduct_arm.h */; };
+		F206032A21BA10520016DD66 /* dequantize_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025321BA10520016DD66 /* dequantize_arm.h */; };
+		F206032B21BA10520016DD66 /* bias_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025421BA10520016DD66 /* bias_arm.h */; };
+		F206032C21BA10520016DD66 /* convolution_1x1_int8.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025521BA10520016DD66 /* convolution_1x1_int8.h */; };
+		F206032D21BA10520016DD66 /* convolution_5x5.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025621BA10520016DD66 /* convolution_5x5.h */; };
+		F206032E21BA10520016DD66 /* softmax_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025721BA10520016DD66 /* softmax_arm.h */; };
+		F206032F21BA10520016DD66 /* softmax_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206025821BA10520016DD66 /* softmax_arm.cpp */; };
+		F206033021BA10520016DD66 /* convolution_2x2.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025921BA10520016DD66 /* convolution_2x2.h */; };
+		F206033121BA10520016DD66 /* convolutiondepthwise_3x3.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025A21BA10520016DD66 /* convolutiondepthwise_3x3.h */; };
+		F206033221BA10520016DD66 /* quantize_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025B21BA10520016DD66 /* quantize_arm.h */; };
+		F206033321BA10520016DD66 /* quantize_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206025C21BA10520016DD66 /* quantize_arm.cpp */; };
+		F206033421BA10520016DD66 /* convolutiondepthwise_3x3_int8.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025D21BA10520016DD66 /* convolutiondepthwise_3x3_int8.h */; };
+		F206033521BA10520016DD66 /* pooling_2x2.h in Headers */ = {isa = PBXBuildFile; fileRef = F206025E21BA10520016DD66 /* pooling_2x2.h */; };
+		F206033621BA10520016DD66 /* eltwise_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206025F21BA10520016DD66 /* eltwise_arm.cpp */; };
+		F206033721BA10520016DD66 /* lrn_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206026021BA10520016DD66 /* lrn_arm.cpp */; };
+		F206033821BA10520016DD66 /* bias_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206026121BA10520016DD66 /* bias_arm.cpp */; };
+		F206033921BA10520016DD66 /* sigmoid_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026221BA10520016DD66 /* sigmoid_arm.h */; };
+		F206033A21BA10520016DD66 /* innerproduct_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206026321BA10520016DD66 /* innerproduct_arm.cpp */; };
+		F206033B21BA10520016DD66 /* convolution_3x3.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026421BA10520016DD66 /* convolution_3x3.h */; };
+		F206033C21BA10520016DD66 /* deconvolution_4x4.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026521BA10520016DD66 /* deconvolution_4x4.h */; };
+		F206033D21BA10520016DD66 /* relu_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026621BA10520016DD66 /* relu_arm.h */; };
+		F206033E21BA10520016DD66 /* eltwise_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026721BA10520016DD66 /* eltwise_arm.h */; };
+		F206033F21BA10520016DD66 /* batchnorm_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026821BA10520016DD66 /* batchnorm_arm.h */; };
+		F206034021BA10520016DD66 /* convolution_7x7.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026921BA10520016DD66 /* convolution_7x7.h */; };
+		F206034121BA10520016DD66 /* neon_mathfun.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026A21BA10520016DD66 /* neon_mathfun.h */; };
+		F206034221BA10520016DD66 /* prelu_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206026B21BA10520016DD66 /* prelu_arm.cpp */; };
+		F206034321BA10520016DD66 /* pooling_3x3.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026C21BA10520016DD66 /* pooling_3x3.h */; };
+		F206034421BA10520016DD66 /* convolution_3x3_int8.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026D21BA10520016DD66 /* convolution_3x3_int8.h */; };
+		F206034521BA10520016DD66 /* deconvolution_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026E21BA10520016DD66 /* deconvolution_arm.h */; };
+		F206034621BA10520016DD66 /* scale_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206026F21BA10520016DD66 /* scale_arm.h */; };
+		F206034721BA10520016DD66 /* clip_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206027021BA10520016DD66 /* clip_arm.cpp */; };
+		F206034821BA10520016DD66 /* deconvolutiondepthwise_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027121BA10520016DD66 /* deconvolutiondepthwise_arm.h */; };
+		F206034921BA10520016DD66 /* prelu_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027221BA10520016DD66 /* prelu_arm.h */; };
+		F206034A21BA10520016DD66 /* convolution_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027321BA10520016DD66 /* convolution_arm.h */; };
+		F206034B21BA10520016DD66 /* scale_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206027421BA10520016DD66 /* scale_arm.cpp */; };
+		F206034C21BA10520016DD66 /* absval_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206027521BA10520016DD66 /* absval_arm.cpp */; };
+		F206034D21BA10520016DD66 /* sigmoid_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206027621BA10520016DD66 /* sigmoid_arm.cpp */; };
+		F206034E21BA10520016DD66 /* pooling_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206027721BA10520016DD66 /* pooling_arm.cpp */; };
+		F206034F21BA10520016DD66 /* deconvolutiondepthwise_arm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206027821BA10520016DD66 /* deconvolutiondepthwise_arm.cpp */; };
+		F206035021BA10520016DD66 /* clip_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027921BA10520016DD66 /* clip_arm.h */; };
+		F206035121BA10520016DD66 /* deconvolution_3x3.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027A21BA10520016DD66 /* deconvolution_3x3.h */; };
+		F206035221BA10520016DD66 /* absval_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027B21BA10520016DD66 /* absval_arm.h */; };
+		F206035321BA10520016DD66 /* convolution_4x4.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027C21BA10520016DD66 /* convolution_4x4.h */; };
+		F206035421BA10520016DD66 /* pooling_arm.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027D21BA10520016DD66 /* pooling_arm.h */; };
+		F206035521BA10520016DD66 /* convolutiondepthwise_5x5.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027E21BA10520016DD66 /* convolutiondepthwise_5x5.h */; };
+		F206035621BA10520016DD66 /* squeeze.h in Headers */ = {isa = PBXBuildFile; fileRef = F206027F21BA10520016DD66 /* squeeze.h */; };
+		F206035721BA10520016DD66 /* yolodetectionoutput.h in Headers */ = {isa = PBXBuildFile; fileRef = F206028021BA10520016DD66 /* yolodetectionoutput.h */; };
+		F206035821BA10520016DD66 /* bias.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206028121BA10520016DD66 /* bias.cpp */; };
+		F206035921BA10520016DD66 /* scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206028221BA10520016DD66 /* scale.cpp */; };
+		F206035A21BA10520016DD66 /* binaryop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206028321BA10520016DD66 /* binaryop.cpp */; };
+		F206035B21BA10520016DD66 /* unaryop.h in Headers */ = {isa = PBXBuildFile; fileRef = F206028421BA10520016DD66 /* unaryop.h */; };
+		F206035C21BA10520016DD66 /* interp.h in Headers */ = {isa = PBXBuildFile; fileRef = F206028521BA10520016DD66 /* interp.h */; };
+		F206035D21BA10520016DD66 /* unaryop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206028621BA10520016DD66 /* unaryop.cpp */; };
+		F206035E21BA10520016DD66 /* innerproduct.h in Headers */ = {isa = PBXBuildFile; fileRef = F206028721BA10520016DD66 /* innerproduct.h */; };
+		F206035F21BA10520016DD66 /* mvn.h in Headers */ = {isa = PBXBuildFile; fileRef = F206028821BA10520016DD66 /* mvn.h */; };
+		F206036021BA10520016DD66 /* expanddims.h in Headers */ = {isa = PBXBuildFile; fileRef = F206028921BA10520016DD66 /* expanddims.h */; };
+		F206036121BA10520016DD66 /* reduction.h in Headers */ = {isa = PBXBuildFile; fileRef = F206028A21BA10520016DD66 /* reduction.h */; };
+		F206036221BA10520016DD66 /* absval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206028B21BA10520016DD66 /* absval.cpp */; };
+		F206036321BA10520016DD66 /* convolution.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206028C21BA10520016DD66 /* convolution.cpp */; };
+		F206036421BA10520016DD66 /* roialign.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206028D21BA10520016DD66 /* roialign.cpp */; };
+		F206036521BA10520016DD66 /* split.h in Headers */ = {isa = PBXBuildFile; fileRef = F206028E21BA10520016DD66 /* split.h */; };
+		F206036621BA10520016DD66 /* binaryop.h in Headers */ = {isa = PBXBuildFile; fileRef = F206028F21BA10520016DD66 /* binaryop.h */; };
+		F206036721BA10520016DD66 /* deconvolution.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029021BA10520016DD66 /* deconvolution.h */; };
+		F206036821BA10520016DD66 /* padding.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029121BA10520016DD66 /* padding.h */; };
+		F206036921BA10520016DD66 /* yolodetectionoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029221BA10520016DD66 /* yolodetectionoutput.cpp */; };
+		F206036A21BA10520016DD66 /* lrn.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029321BA10520016DD66 /* lrn.h */; };
+		F206036B21BA10520016DD66 /* opencv.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029421BA10520016DD66 /* opencv.h */; };
+		F206036C21BA10520016DD66 /* allocator.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029521BA10520016DD66 /* allocator.h */; };
+		F206036D21BA10520016DD66 /* allocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029621BA10520016DD66 /* allocator.cpp */; };
+		F206036E21BA10520016DD66 /* cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029721BA10520016DD66 /* cpu.h */; };
+		F206036F21BA10520016DD66 /* mat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029821BA10520016DD66 /* mat.cpp */; };
+		F206037021BA10520016DD66 /* modelbin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029921BA10520016DD66 /* modelbin.cpp */; };
+		F206037121BA10520016DD66 /* layer_type.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029A21BA10520016DD66 /* layer_type.h */; };
+		F206037221BA10530016DD66 /* mat_pixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029B21BA10520016DD66 /* mat_pixel.cpp */; };
+		F206037321BA10530016DD66 /* benchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029C21BA10520016DD66 /* benchmark.h */; };
+		F206037421BA10530016DD66 /* cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029D21BA10520016DD66 /* cpu.cpp */; };
+		F206037521BA10530016DD66 /* opencv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029E21BA10520016DD66 /* opencv.cpp */; };
+		F206037621BA10530016DD66 /* paramdict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029F21BA10520016DD66 /* paramdict.cpp */; };
+		F206037821BA10870016DD66 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037721BA10870016DD66 /* platform.h */; };
+		F206037A21BA10A30016DD66 /* layer_type_enum.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037921BA10A30016DD66 /* layer_type_enum.h */; };
+		F206037C21BA10CB0016DD66 /* layer_declaration.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037B21BA10CB0016DD66 /* layer_declaration.h */; };
+		F206037E21BA10DF0016DD66 /* layer_registry.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037D21BA10DF0016DD66 /* layer_registry.h */; };
 		F21C139721B11D9300FADBB5 /* GMNcnn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21C138D21B11D9300FADBB5 /* GMNcnn.framework */; };
 		F21C139C21B11D9300FADBB5 /* GMNcnnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21C139B21B11D9300FADBB5 /* GMNcnnTests.m */; };
 		F21C139E21B11D9300FADBB5 /* GMNcnn.h in Headers */ = {isa = PBXBuildFile; fileRef = F21C139021B11D9300FADBB5 /* GMNcnn.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -23,6 +242,225 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F20601C621BA10510016DD66 /* modelbin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modelbin.h; sourceTree = "<group>"; };
+		F20601C721BA10510016DD66 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		F20601C821BA10510016DD66 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		F20601C921BA10510016DD66 /* mat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mat.h; sourceTree = "<group>"; };
+		F20601CA21BA10510016DD66 /* platform.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = platform.h.in; sourceTree = "<group>"; };
+		F20601CB21BA10510016DD66 /* blob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blob.h; sourceTree = "<group>"; };
+		F20601CC21BA10510016DD66 /* blob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blob.cpp; sourceTree = "<group>"; };
+		F20601CD21BA10510016DD66 /* layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer.h; sourceTree = "<group>"; };
+		F20601CE21BA10510016DD66 /* layer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = layer.cpp; sourceTree = "<group>"; };
+		F20601CF21BA10510016DD66 /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cpp; sourceTree = "<group>"; };
+		F20601D021BA10510016DD66 /* net.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = net.cpp; sourceTree = "<group>"; };
+		F20601D121BA10510016DD66 /* paramdict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = paramdict.h; sourceTree = "<group>"; };
+		F20601D321BA10510016DD66 /* flatten.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = flatten.cpp; sourceTree = "<group>"; };
+		F20601D421BA10510016DD66 /* softmax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = softmax.h; sourceTree = "<group>"; };
+		F20601D521BA10510016DD66 /* squeeze.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = squeeze.cpp; sourceTree = "<group>"; };
+		F20601D621BA10510016DD66 /* dropout.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dropout.cpp; sourceTree = "<group>"; };
+		F20601D721BA10510016DD66 /* quantize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantize.h; sourceTree = "<group>"; };
+		F20601D821BA10510016DD66 /* dequantize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dequantize.h; sourceTree = "<group>"; };
+		F20601D921BA10510016DD66 /* permute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = permute.h; sourceTree = "<group>"; };
+		F20601DA21BA10510016DD66 /* batchnorm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = batchnorm.cpp; sourceTree = "<group>"; };
+		F20601DB21BA10510016DD66 /* argmax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = argmax.cpp; sourceTree = "<group>"; };
+		F20601DC21BA10510016DD66 /* shufflechannel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shufflechannel.cpp; sourceTree = "<group>"; };
+		F20601DD21BA10510016DD66 /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
+		F20601DE21BA10510016DD66 /* power.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = power.h; sourceTree = "<group>"; };
+		F20601DF21BA10510016DD66 /* flatten.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flatten.h; sourceTree = "<group>"; };
+		F20601E021BA10510016DD66 /* embed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = embed.h; sourceTree = "<group>"; };
+		F20601E121BA10510016DD66 /* roialign.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roialign.h; sourceTree = "<group>"; };
+		F20601E221BA10510016DD66 /* dequantize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dequantize.cpp; sourceTree = "<group>"; };
+		F20601E321BA10510016DD66 /* input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = input.h; sourceTree = "<group>"; };
+		F20601E421BA10510016DD66 /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
+		F20601E521BA10510016DD66 /* detectionoutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = detectionoutput.cpp; sourceTree = "<group>"; };
+		F20601E621BA10510016DD66 /* memorydata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = memorydata.cpp; sourceTree = "<group>"; };
+		F20601E721BA10510016DD66 /* eltwise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eltwise.h; sourceTree = "<group>"; };
+		F20601E821BA10510016DD66 /* input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = input.cpp; sourceTree = "<group>"; };
+		F20601E921BA10510016DD66 /* reshape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reshape.cpp; sourceTree = "<group>"; };
+		F20601EA21BA10510016DD66 /* rnn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rnn.h; sourceTree = "<group>"; };
+		F20601EB21BA10510016DD66 /* sigmoid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sigmoid.cpp; sourceTree = "<group>"; };
+		F20601EC21BA10510016DD66 /* shufflechannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shufflechannel.h; sourceTree = "<group>"; };
+		F20601ED21BA10510016DD66 /* deconvolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deconvolution.cpp; sourceTree = "<group>"; };
+		F20601EE21BA10510016DD66 /* interp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = interp.cpp; sourceTree = "<group>"; };
+		F20601EF21BA10510016DD66 /* deconvolutiondepthwise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deconvolutiondepthwise.cpp; sourceTree = "<group>"; };
+		F20601F021BA10510016DD66 /* tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tile.h; sourceTree = "<group>"; };
+		F20601F121BA10510016DD66 /* psroipooling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = psroipooling.h; sourceTree = "<group>"; };
+		F20601F221BA10510016DD66 /* batchnorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = batchnorm.h; sourceTree = "<group>"; };
+		F20601F321BA10510016DD66 /* tanh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tanh.cpp; sourceTree = "<group>"; };
+		F20601F421BA10510016DD66 /* expanddims.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = expanddims.cpp; sourceTree = "<group>"; };
+		F20601F521BA10510016DD66 /* relu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relu.h; sourceTree = "<group>"; };
+		F20601F621BA10510016DD66 /* split.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = split.cpp; sourceTree = "<group>"; };
+		F20601F721BA10510016DD66 /* reorg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reorg.cpp; sourceTree = "<group>"; };
+		F20601F821BA10510016DD66 /* roipooling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = roipooling.cpp; sourceTree = "<group>"; };
+		F20601F921BA10510016DD66 /* convolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution.h; sourceTree = "<group>"; };
+		F20601FA21BA10510016DD66 /* reduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reduction.cpp; sourceTree = "<group>"; };
+		F20601FB21BA10510016DD66 /* permute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = permute.cpp; sourceTree = "<group>"; };
+		F20601FC21BA10510016DD66 /* proposal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proposal.h; sourceTree = "<group>"; };
+		F20601FD21BA10510016DD66 /* bnll.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bnll.cpp; sourceTree = "<group>"; };
+		F20601FE21BA10510016DD66 /* elu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = elu.cpp; sourceTree = "<group>"; };
+		F20601FF21BA10510016DD66 /* exp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = exp.cpp; sourceTree = "<group>"; };
+		F206020021BA10510016DD66 /* instancenorm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = instancenorm.h; sourceTree = "<group>"; };
+		F206020121BA10510016DD66 /* relu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = relu.cpp; sourceTree = "<group>"; };
+		F206020221BA10510016DD66 /* embed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = embed.cpp; sourceTree = "<group>"; };
+		F206020321BA10510016DD66 /* bias.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bias.h; sourceTree = "<group>"; };
+		F206020421BA10510016DD66 /* prelu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prelu.h; sourceTree = "<group>"; };
+		F206020521BA10510016DD66 /* absval.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = absval.h; sourceTree = "<group>"; };
+		F206020621BA10510016DD66 /* slice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = slice.cpp; sourceTree = "<group>"; };
+		F206020721BA10510016DD66 /* slice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = slice.h; sourceTree = "<group>"; };
+		F206020821BA10510016DD66 /* lrn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lrn.cpp; sourceTree = "<group>"; };
+		F206020921BA10510016DD66 /* normalize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = normalize.h; sourceTree = "<group>"; };
+		F206020A21BA10510016DD66 /* instancenorm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = instancenorm.cpp; sourceTree = "<group>"; };
+		F206020B21BA10510016DD66 /* spp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = spp.h; sourceTree = "<group>"; };
+		F206020C21BA10510016DD66 /* proposal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = proposal.cpp; sourceTree = "<group>"; };
+		F206020D21BA10510016DD66 /* eltwise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eltwise.cpp; sourceTree = "<group>"; };
+		F206020E21BA10510016DD66 /* prelu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prelu.cpp; sourceTree = "<group>"; };
+		F206020F21BA10510016DD66 /* pooling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pooling.cpp; sourceTree = "<group>"; };
+		F206021021BA10510016DD66 /* priorbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = priorbox.h; sourceTree = "<group>"; };
+		F206021121BA10510016DD66 /* lstm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lstm.h; sourceTree = "<group>"; };
+		F206021221BA10510016DD66 /* spp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spp.cpp; sourceTree = "<group>"; };
+		F206021321BA10510016DD66 /* lstm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lstm.cpp; sourceTree = "<group>"; };
+		F206021421BA10510016DD66 /* threshold.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = threshold.h; sourceTree = "<group>"; };
+		F206021521BA10510016DD66 /* normalize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = normalize.cpp; sourceTree = "<group>"; };
+		F206021621BA10510016DD66 /* concat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = concat.cpp; sourceTree = "<group>"; };
+		F206021721BA10510016DD66 /* concat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concat.h; sourceTree = "<group>"; };
+		F206021821BA10510016DD66 /* tanh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tanh.h; sourceTree = "<group>"; };
+		F206021921BA10510016DD66 /* convolutiondepthwise.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convolutiondepthwise.cpp; sourceTree = "<group>"; };
+		F206021A21BA10510016DD66 /* rnn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rnn.cpp; sourceTree = "<group>"; };
+		F206021B21BA10510016DD66 /* convolutiondepthwise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolutiondepthwise.h; sourceTree = "<group>"; };
+		F206021C21BA10510016DD66 /* crop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crop.cpp; sourceTree = "<group>"; };
+		F206021D21BA10510016DD66 /* psroipooling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psroipooling.cpp; sourceTree = "<group>"; };
+		F206021E21BA10510016DD66 /* power.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = power.cpp; sourceTree = "<group>"; };
+		F206021F21BA10510016DD66 /* mvn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mvn.cpp; sourceTree = "<group>"; };
+		F206022021BA10510016DD66 /* dropout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dropout.h; sourceTree = "<group>"; };
+		F206022121BA10510016DD66 /* elu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elu.h; sourceTree = "<group>"; };
+		F206022221BA10510016DD66 /* priorbox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = priorbox.cpp; sourceTree = "<group>"; };
+		F206022321BA10510016DD66 /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		F206022421BA10510016DD66 /* clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clip.h; sourceTree = "<group>"; };
+		F206022521BA10510016DD66 /* reshape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reshape.h; sourceTree = "<group>"; };
+		F206022621BA10510016DD66 /* crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crop.h; sourceTree = "<group>"; };
+		F206022821BA10510016DD66 /* convolution_1x1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_1x1.h; sourceTree = "<group>"; };
+		F206022921BA10510016DD66 /* convolutiondepthwise_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolutiondepthwise_x86.h; sourceTree = "<group>"; };
+		F206022A21BA10510016DD66 /* convolution_1x1_int8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_1x1_int8.h; sourceTree = "<group>"; };
+		F206022B21BA10510016DD66 /* convolution_5x5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_5x5.h; sourceTree = "<group>"; };
+		F206022C21BA10510016DD66 /* convolutiondepthwise_3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolutiondepthwise_3x3.h; sourceTree = "<group>"; };
+		F206022D21BA10510016DD66 /* convolutiondepthwise_x86.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convolutiondepthwise_x86.cpp; sourceTree = "<group>"; };
+		F206022E21BA10510016DD66 /* convolutiondepthwise_3x3_int8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolutiondepthwise_3x3_int8.h; sourceTree = "<group>"; };
+		F206022F21BA10510016DD66 /* convolution_x86.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convolution_x86.cpp; sourceTree = "<group>"; };
+		F206023021BA10510016DD66 /* convolution_3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_3x3.h; sourceTree = "<group>"; };
+		F206023121BA10510016DD66 /* sse_mathfun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sse_mathfun.h; sourceTree = "<group>"; };
+		F206023221BA10510016DD66 /* convolution_3x3_int8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_3x3_int8.h; sourceTree = "<group>"; };
+		F206023321BA10510016DD66 /* convolution_x86.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_x86.h; sourceTree = "<group>"; };
+		F206023421BA10510016DD66 /* avx_mathfun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = avx_mathfun.h; sourceTree = "<group>"; };
+		F206023521BA10510016DD66 /* memorydata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorydata.h; sourceTree = "<group>"; };
+		F206023621BA10510016DD66 /* innerproduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = innerproduct.cpp; sourceTree = "<group>"; };
+		F206023721BA10510016DD66 /* argmax.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = argmax.h; sourceTree = "<group>"; };
+		F206023821BA10510016DD66 /* yolov3detectionoutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yolov3detectionoutput.h; sourceTree = "<group>"; };
+		F206023921BA10510016DD66 /* sigmoid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sigmoid.h; sourceTree = "<group>"; };
+		F206023A21BA10510016DD66 /* softmax.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = softmax.cpp; sourceTree = "<group>"; };
+		F206023B21BA10510016DD66 /* deconvolutiondepthwise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deconvolutiondepthwise.h; sourceTree = "<group>"; };
+		F206023C21BA10510016DD66 /* bnll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bnll.h; sourceTree = "<group>"; };
+		F206023D21BA10510016DD66 /* clip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clip.cpp; sourceTree = "<group>"; };
+		F206023E21BA10510016DD66 /* padding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = padding.cpp; sourceTree = "<group>"; };
+		F206023F21BA10510016DD66 /* reorg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reorg.h; sourceTree = "<group>"; };
+		F206024021BA10510016DD66 /* roipooling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roipooling.h; sourceTree = "<group>"; };
+		F206024121BA10510016DD66 /* threshold.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = threshold.cpp; sourceTree = "<group>"; };
+		F206024221BA10510016DD66 /* quantize.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quantize.cpp; sourceTree = "<group>"; };
+		F206024321BA10510016DD66 /* yolov3detectionoutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yolov3detectionoutput.cpp; sourceTree = "<group>"; };
+		F206024421BA10510016DD66 /* tile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tile.cpp; sourceTree = "<group>"; };
+		F206024521BA10510016DD66 /* detectionoutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detectionoutput.h; sourceTree = "<group>"; };
+		F206024621BA10510016DD66 /* exp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exp.h; sourceTree = "<group>"; };
+		F206024721BA10510016DD66 /* pooling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pooling.h; sourceTree = "<group>"; };
+		F206024921BA10510016DD66 /* relu_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = relu_arm.cpp; sourceTree = "<group>"; };
+		F206024A21BA10520016DD66 /* deconvolution_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deconvolution_arm.cpp; sourceTree = "<group>"; };
+		F206024B21BA10520016DD66 /* convolution_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convolution_arm.cpp; sourceTree = "<group>"; };
+		F206024C21BA10520016DD66 /* dequantize_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dequantize_arm.cpp; sourceTree = "<group>"; };
+		F206024D21BA10520016DD66 /* lrn_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lrn_arm.h; sourceTree = "<group>"; };
+		F206024E21BA10520016DD66 /* convolution_1x1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_1x1.h; sourceTree = "<group>"; };
+		F206024F21BA10520016DD66 /* convolutiondepthwise_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolutiondepthwise_arm.h; sourceTree = "<group>"; };
+		F206025021BA10520016DD66 /* batchnorm_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = batchnorm_arm.cpp; sourceTree = "<group>"; };
+		F206025121BA10520016DD66 /* convolutiondepthwise_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convolutiondepthwise_arm.cpp; sourceTree = "<group>"; };
+		F206025221BA10520016DD66 /* innerproduct_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = innerproduct_arm.h; sourceTree = "<group>"; };
+		F206025321BA10520016DD66 /* dequantize_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dequantize_arm.h; sourceTree = "<group>"; };
+		F206025421BA10520016DD66 /* bias_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bias_arm.h; sourceTree = "<group>"; };
+		F206025521BA10520016DD66 /* convolution_1x1_int8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_1x1_int8.h; sourceTree = "<group>"; };
+		F206025621BA10520016DD66 /* convolution_5x5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_5x5.h; sourceTree = "<group>"; };
+		F206025721BA10520016DD66 /* softmax_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = softmax_arm.h; sourceTree = "<group>"; };
+		F206025821BA10520016DD66 /* softmax_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = softmax_arm.cpp; sourceTree = "<group>"; };
+		F206025921BA10520016DD66 /* convolution_2x2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_2x2.h; sourceTree = "<group>"; };
+		F206025A21BA10520016DD66 /* convolutiondepthwise_3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolutiondepthwise_3x3.h; sourceTree = "<group>"; };
+		F206025B21BA10520016DD66 /* quantize_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quantize_arm.h; sourceTree = "<group>"; };
+		F206025C21BA10520016DD66 /* quantize_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quantize_arm.cpp; sourceTree = "<group>"; };
+		F206025D21BA10520016DD66 /* convolutiondepthwise_3x3_int8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolutiondepthwise_3x3_int8.h; sourceTree = "<group>"; };
+		F206025E21BA10520016DD66 /* pooling_2x2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pooling_2x2.h; sourceTree = "<group>"; };
+		F206025F21BA10520016DD66 /* eltwise_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eltwise_arm.cpp; sourceTree = "<group>"; };
+		F206026021BA10520016DD66 /* lrn_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lrn_arm.cpp; sourceTree = "<group>"; };
+		F206026121BA10520016DD66 /* bias_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bias_arm.cpp; sourceTree = "<group>"; };
+		F206026221BA10520016DD66 /* sigmoid_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sigmoid_arm.h; sourceTree = "<group>"; };
+		F206026321BA10520016DD66 /* innerproduct_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = innerproduct_arm.cpp; sourceTree = "<group>"; };
+		F206026421BA10520016DD66 /* convolution_3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_3x3.h; sourceTree = "<group>"; };
+		F206026521BA10520016DD66 /* deconvolution_4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deconvolution_4x4.h; sourceTree = "<group>"; };
+		F206026621BA10520016DD66 /* relu_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = relu_arm.h; sourceTree = "<group>"; };
+		F206026721BA10520016DD66 /* eltwise_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eltwise_arm.h; sourceTree = "<group>"; };
+		F206026821BA10520016DD66 /* batchnorm_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = batchnorm_arm.h; sourceTree = "<group>"; };
+		F206026921BA10520016DD66 /* convolution_7x7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_7x7.h; sourceTree = "<group>"; };
+		F206026A21BA10520016DD66 /* neon_mathfun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = neon_mathfun.h; sourceTree = "<group>"; };
+		F206026B21BA10520016DD66 /* prelu_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = prelu_arm.cpp; sourceTree = "<group>"; };
+		F206026C21BA10520016DD66 /* pooling_3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pooling_3x3.h; sourceTree = "<group>"; };
+		F206026D21BA10520016DD66 /* convolution_3x3_int8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_3x3_int8.h; sourceTree = "<group>"; };
+		F206026E21BA10520016DD66 /* deconvolution_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deconvolution_arm.h; sourceTree = "<group>"; };
+		F206026F21BA10520016DD66 /* scale_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale_arm.h; sourceTree = "<group>"; };
+		F206027021BA10520016DD66 /* clip_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = clip_arm.cpp; sourceTree = "<group>"; };
+		F206027121BA10520016DD66 /* deconvolutiondepthwise_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deconvolutiondepthwise_arm.h; sourceTree = "<group>"; };
+		F206027221BA10520016DD66 /* prelu_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prelu_arm.h; sourceTree = "<group>"; };
+		F206027321BA10520016DD66 /* convolution_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_arm.h; sourceTree = "<group>"; };
+		F206027421BA10520016DD66 /* scale_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scale_arm.cpp; sourceTree = "<group>"; };
+		F206027521BA10520016DD66 /* absval_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = absval_arm.cpp; sourceTree = "<group>"; };
+		F206027621BA10520016DD66 /* sigmoid_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sigmoid_arm.cpp; sourceTree = "<group>"; };
+		F206027721BA10520016DD66 /* pooling_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pooling_arm.cpp; sourceTree = "<group>"; };
+		F206027821BA10520016DD66 /* deconvolutiondepthwise_arm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = deconvolutiondepthwise_arm.cpp; sourceTree = "<group>"; };
+		F206027921BA10520016DD66 /* clip_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clip_arm.h; sourceTree = "<group>"; };
+		F206027A21BA10520016DD66 /* deconvolution_3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deconvolution_3x3.h; sourceTree = "<group>"; };
+		F206027B21BA10520016DD66 /* absval_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = absval_arm.h; sourceTree = "<group>"; };
+		F206027C21BA10520016DD66 /* convolution_4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolution_4x4.h; sourceTree = "<group>"; };
+		F206027D21BA10520016DD66 /* pooling_arm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pooling_arm.h; sourceTree = "<group>"; };
+		F206027E21BA10520016DD66 /* convolutiondepthwise_5x5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = convolutiondepthwise_5x5.h; sourceTree = "<group>"; };
+		F206027F21BA10520016DD66 /* squeeze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = squeeze.h; sourceTree = "<group>"; };
+		F206028021BA10520016DD66 /* yolodetectionoutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yolodetectionoutput.h; sourceTree = "<group>"; };
+		F206028121BA10520016DD66 /* bias.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bias.cpp; sourceTree = "<group>"; };
+		F206028221BA10520016DD66 /* scale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = scale.cpp; sourceTree = "<group>"; };
+		F206028321BA10520016DD66 /* binaryop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = binaryop.cpp; sourceTree = "<group>"; };
+		F206028421BA10520016DD66 /* unaryop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unaryop.h; sourceTree = "<group>"; };
+		F206028521BA10520016DD66 /* interp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interp.h; sourceTree = "<group>"; };
+		F206028621BA10520016DD66 /* unaryop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = unaryop.cpp; sourceTree = "<group>"; };
+		F206028721BA10520016DD66 /* innerproduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = innerproduct.h; sourceTree = "<group>"; };
+		F206028821BA10520016DD66 /* mvn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mvn.h; sourceTree = "<group>"; };
+		F206028921BA10520016DD66 /* expanddims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = expanddims.h; sourceTree = "<group>"; };
+		F206028A21BA10520016DD66 /* reduction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reduction.h; sourceTree = "<group>"; };
+		F206028B21BA10520016DD66 /* absval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = absval.cpp; sourceTree = "<group>"; };
+		F206028C21BA10520016DD66 /* convolution.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = convolution.cpp; sourceTree = "<group>"; };
+		F206028D21BA10520016DD66 /* roialign.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = roialign.cpp; sourceTree = "<group>"; };
+		F206028E21BA10520016DD66 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		F206028F21BA10520016DD66 /* binaryop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = binaryop.h; sourceTree = "<group>"; };
+		F206029021BA10520016DD66 /* deconvolution.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deconvolution.h; sourceTree = "<group>"; };
+		F206029121BA10520016DD66 /* padding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = padding.h; sourceTree = "<group>"; };
+		F206029221BA10520016DD66 /* yolodetectionoutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = yolodetectionoutput.cpp; sourceTree = "<group>"; };
+		F206029321BA10520016DD66 /* lrn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lrn.h; sourceTree = "<group>"; };
+		F206029421BA10520016DD66 /* opencv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opencv.h; sourceTree = "<group>"; };
+		F206029521BA10520016DD66 /* allocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allocator.h; sourceTree = "<group>"; };
+		F206029621BA10520016DD66 /* allocator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = allocator.cpp; sourceTree = "<group>"; };
+		F206029721BA10520016DD66 /* cpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpu.h; sourceTree = "<group>"; };
+		F206029821BA10520016DD66 /* mat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mat.cpp; sourceTree = "<group>"; };
+		F206029921BA10520016DD66 /* modelbin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = modelbin.cpp; sourceTree = "<group>"; };
+		F206029A21BA10520016DD66 /* layer_type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer_type.h; sourceTree = "<group>"; };
+		F206029B21BA10520016DD66 /* mat_pixel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mat_pixel.cpp; sourceTree = "<group>"; };
+		F206029C21BA10520016DD66 /* benchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = benchmark.h; sourceTree = "<group>"; };
+		F206029D21BA10520016DD66 /* cpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cpu.cpp; sourceTree = "<group>"; };
+		F206029E21BA10520016DD66 /* opencv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = opencv.cpp; sourceTree = "<group>"; };
+		F206029F21BA10520016DD66 /* paramdict.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = paramdict.cpp; sourceTree = "<group>"; };
+		F206037721BA10870016DD66 /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		F206037921BA10A30016DD66 /* layer_type_enum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer_type_enum.h; sourceTree = "<group>"; };
+		F206037B21BA10CB0016DD66 /* layer_declaration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer_declaration.h; sourceTree = "<group>"; };
+		F206037D21BA10DF0016DD66 /* layer_registry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = layer_registry.h; sourceTree = "<group>"; };
 		F21C138D21B11D9300FADBB5 /* GMNcnn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GMNcnn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21C139021B11D9300FADBB5 /* GMNcnn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GMNcnn.h; sourceTree = "<group>"; };
 		F21C139121B11D9300FADBB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,9 +488,260 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F20601C521BA10510016DD66 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F206037D21BA10DF0016DD66 /* layer_registry.h */,
+				F206037B21BA10CB0016DD66 /* layer_declaration.h */,
+				F206037921BA10A30016DD66 /* layer_type_enum.h */,
+				F206037721BA10870016DD66 /* platform.h */,
+				F20601C621BA10510016DD66 /* modelbin.h */,
+				F20601C721BA10510016DD66 /* CMakeLists.txt */,
+				F20601C821BA10510016DD66 /* net.h */,
+				F20601C921BA10510016DD66 /* mat.h */,
+				F20601CA21BA10510016DD66 /* platform.h.in */,
+				F20601CB21BA10510016DD66 /* blob.h */,
+				F20601CC21BA10510016DD66 /* blob.cpp */,
+				F20601CD21BA10510016DD66 /* layer.h */,
+				F20601CE21BA10510016DD66 /* layer.cpp */,
+				F20601CF21BA10510016DD66 /* benchmark.cpp */,
+				F20601D021BA10510016DD66 /* net.cpp */,
+				F20601D121BA10510016DD66 /* paramdict.h */,
+				F20601D221BA10510016DD66 /* layer */,
+				F206029421BA10520016DD66 /* opencv.h */,
+				F206029521BA10520016DD66 /* allocator.h */,
+				F206029621BA10520016DD66 /* allocator.cpp */,
+				F206029721BA10520016DD66 /* cpu.h */,
+				F206029821BA10520016DD66 /* mat.cpp */,
+				F206029921BA10520016DD66 /* modelbin.cpp */,
+				F206029A21BA10520016DD66 /* layer_type.h */,
+				F206029B21BA10520016DD66 /* mat_pixel.cpp */,
+				F206029C21BA10520016DD66 /* benchmark.h */,
+				F206029D21BA10520016DD66 /* cpu.cpp */,
+				F206029E21BA10520016DD66 /* opencv.cpp */,
+				F206029F21BA10520016DD66 /* paramdict.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		F20601D221BA10510016DD66 /* layer */ = {
+			isa = PBXGroup;
+			children = (
+				F20601D321BA10510016DD66 /* flatten.cpp */,
+				F20601D421BA10510016DD66 /* softmax.h */,
+				F20601D521BA10510016DD66 /* squeeze.cpp */,
+				F20601D621BA10510016DD66 /* dropout.cpp */,
+				F20601D721BA10510016DD66 /* quantize.h */,
+				F20601D821BA10510016DD66 /* dequantize.h */,
+				F20601D921BA10510016DD66 /* permute.h */,
+				F20601DA21BA10510016DD66 /* batchnorm.cpp */,
+				F20601DB21BA10510016DD66 /* argmax.cpp */,
+				F20601DC21BA10510016DD66 /* shufflechannel.cpp */,
+				F20601DD21BA10510016DD66 /* scale.h */,
+				F20601DE21BA10510016DD66 /* power.h */,
+				F20601DF21BA10510016DD66 /* flatten.h */,
+				F20601E021BA10510016DD66 /* embed.h */,
+				F20601E121BA10510016DD66 /* roialign.h */,
+				F20601E221BA10510016DD66 /* dequantize.cpp */,
+				F20601E321BA10510016DD66 /* input.h */,
+				F20601E421BA10510016DD66 /* log.cpp */,
+				F20601E521BA10510016DD66 /* detectionoutput.cpp */,
+				F20601E621BA10510016DD66 /* memorydata.cpp */,
+				F20601E721BA10510016DD66 /* eltwise.h */,
+				F20601E821BA10510016DD66 /* input.cpp */,
+				F20601E921BA10510016DD66 /* reshape.cpp */,
+				F20601EA21BA10510016DD66 /* rnn.h */,
+				F20601EB21BA10510016DD66 /* sigmoid.cpp */,
+				F20601EC21BA10510016DD66 /* shufflechannel.h */,
+				F20601ED21BA10510016DD66 /* deconvolution.cpp */,
+				F20601EE21BA10510016DD66 /* interp.cpp */,
+				F20601EF21BA10510016DD66 /* deconvolutiondepthwise.cpp */,
+				F20601F021BA10510016DD66 /* tile.h */,
+				F20601F121BA10510016DD66 /* psroipooling.h */,
+				F20601F221BA10510016DD66 /* batchnorm.h */,
+				F20601F321BA10510016DD66 /* tanh.cpp */,
+				F20601F421BA10510016DD66 /* expanddims.cpp */,
+				F20601F521BA10510016DD66 /* relu.h */,
+				F20601F621BA10510016DD66 /* split.cpp */,
+				F20601F721BA10510016DD66 /* reorg.cpp */,
+				F20601F821BA10510016DD66 /* roipooling.cpp */,
+				F20601F921BA10510016DD66 /* convolution.h */,
+				F20601FA21BA10510016DD66 /* reduction.cpp */,
+				F20601FB21BA10510016DD66 /* permute.cpp */,
+				F20601FC21BA10510016DD66 /* proposal.h */,
+				F20601FD21BA10510016DD66 /* bnll.cpp */,
+				F20601FE21BA10510016DD66 /* elu.cpp */,
+				F20601FF21BA10510016DD66 /* exp.cpp */,
+				F206020021BA10510016DD66 /* instancenorm.h */,
+				F206020121BA10510016DD66 /* relu.cpp */,
+				F206020221BA10510016DD66 /* embed.cpp */,
+				F206020321BA10510016DD66 /* bias.h */,
+				F206020421BA10510016DD66 /* prelu.h */,
+				F206020521BA10510016DD66 /* absval.h */,
+				F206020621BA10510016DD66 /* slice.cpp */,
+				F206020721BA10510016DD66 /* slice.h */,
+				F206020821BA10510016DD66 /* lrn.cpp */,
+				F206020921BA10510016DD66 /* normalize.h */,
+				F206020A21BA10510016DD66 /* instancenorm.cpp */,
+				F206020B21BA10510016DD66 /* spp.h */,
+				F206020C21BA10510016DD66 /* proposal.cpp */,
+				F206020D21BA10510016DD66 /* eltwise.cpp */,
+				F206020E21BA10510016DD66 /* prelu.cpp */,
+				F206020F21BA10510016DD66 /* pooling.cpp */,
+				F206021021BA10510016DD66 /* priorbox.h */,
+				F206021121BA10510016DD66 /* lstm.h */,
+				F206021221BA10510016DD66 /* spp.cpp */,
+				F206021321BA10510016DD66 /* lstm.cpp */,
+				F206021421BA10510016DD66 /* threshold.h */,
+				F206021521BA10510016DD66 /* normalize.cpp */,
+				F206021621BA10510016DD66 /* concat.cpp */,
+				F206021721BA10510016DD66 /* concat.h */,
+				F206021821BA10510016DD66 /* tanh.h */,
+				F206021921BA10510016DD66 /* convolutiondepthwise.cpp */,
+				F206021A21BA10510016DD66 /* rnn.cpp */,
+				F206021B21BA10510016DD66 /* convolutiondepthwise.h */,
+				F206021C21BA10510016DD66 /* crop.cpp */,
+				F206021D21BA10510016DD66 /* psroipooling.cpp */,
+				F206021E21BA10510016DD66 /* power.cpp */,
+				F206021F21BA10510016DD66 /* mvn.cpp */,
+				F206022021BA10510016DD66 /* dropout.h */,
+				F206022121BA10510016DD66 /* elu.h */,
+				F206022221BA10510016DD66 /* priorbox.cpp */,
+				F206022321BA10510016DD66 /* log.h */,
+				F206022421BA10510016DD66 /* clip.h */,
+				F206022521BA10510016DD66 /* reshape.h */,
+				F206022621BA10510016DD66 /* crop.h */,
+				F206022721BA10510016DD66 /* x86 */,
+				F206023521BA10510016DD66 /* memorydata.h */,
+				F206023621BA10510016DD66 /* innerproduct.cpp */,
+				F206023721BA10510016DD66 /* argmax.h */,
+				F206023821BA10510016DD66 /* yolov3detectionoutput.h */,
+				F206023921BA10510016DD66 /* sigmoid.h */,
+				F206023A21BA10510016DD66 /* softmax.cpp */,
+				F206023B21BA10510016DD66 /* deconvolutiondepthwise.h */,
+				F206023C21BA10510016DD66 /* bnll.h */,
+				F206023D21BA10510016DD66 /* clip.cpp */,
+				F206023E21BA10510016DD66 /* padding.cpp */,
+				F206023F21BA10510016DD66 /* reorg.h */,
+				F206024021BA10510016DD66 /* roipooling.h */,
+				F206024121BA10510016DD66 /* threshold.cpp */,
+				F206024221BA10510016DD66 /* quantize.cpp */,
+				F206024321BA10510016DD66 /* yolov3detectionoutput.cpp */,
+				F206024421BA10510016DD66 /* tile.cpp */,
+				F206024521BA10510016DD66 /* detectionoutput.h */,
+				F206024621BA10510016DD66 /* exp.h */,
+				F206024721BA10510016DD66 /* pooling.h */,
+				F206024821BA10510016DD66 /* arm */,
+				F206027F21BA10520016DD66 /* squeeze.h */,
+				F206028021BA10520016DD66 /* yolodetectionoutput.h */,
+				F206028121BA10520016DD66 /* bias.cpp */,
+				F206028221BA10520016DD66 /* scale.cpp */,
+				F206028321BA10520016DD66 /* binaryop.cpp */,
+				F206028421BA10520016DD66 /* unaryop.h */,
+				F206028521BA10520016DD66 /* interp.h */,
+				F206028621BA10520016DD66 /* unaryop.cpp */,
+				F206028721BA10520016DD66 /* innerproduct.h */,
+				F206028821BA10520016DD66 /* mvn.h */,
+				F206028921BA10520016DD66 /* expanddims.h */,
+				F206028A21BA10520016DD66 /* reduction.h */,
+				F206028B21BA10520016DD66 /* absval.cpp */,
+				F206028C21BA10520016DD66 /* convolution.cpp */,
+				F206028D21BA10520016DD66 /* roialign.cpp */,
+				F206028E21BA10520016DD66 /* split.h */,
+				F206028F21BA10520016DD66 /* binaryop.h */,
+				F206029021BA10520016DD66 /* deconvolution.h */,
+				F206029121BA10520016DD66 /* padding.h */,
+				F206029221BA10520016DD66 /* yolodetectionoutput.cpp */,
+				F206029321BA10520016DD66 /* lrn.h */,
+			);
+			path = layer;
+			sourceTree = "<group>";
+		};
+		F206022721BA10510016DD66 /* x86 */ = {
+			isa = PBXGroup;
+			children = (
+				F206022821BA10510016DD66 /* convolution_1x1.h */,
+				F206022921BA10510016DD66 /* convolutiondepthwise_x86.h */,
+				F206022A21BA10510016DD66 /* convolution_1x1_int8.h */,
+				F206022B21BA10510016DD66 /* convolution_5x5.h */,
+				F206022C21BA10510016DD66 /* convolutiondepthwise_3x3.h */,
+				F206022D21BA10510016DD66 /* convolutiondepthwise_x86.cpp */,
+				F206022E21BA10510016DD66 /* convolutiondepthwise_3x3_int8.h */,
+				F206022F21BA10510016DD66 /* convolution_x86.cpp */,
+				F206023021BA10510016DD66 /* convolution_3x3.h */,
+				F206023121BA10510016DD66 /* sse_mathfun.h */,
+				F206023221BA10510016DD66 /* convolution_3x3_int8.h */,
+				F206023321BA10510016DD66 /* convolution_x86.h */,
+				F206023421BA10510016DD66 /* avx_mathfun.h */,
+			);
+			path = x86;
+			sourceTree = "<group>";
+		};
+		F206024821BA10510016DD66 /* arm */ = {
+			isa = PBXGroup;
+			children = (
+				F206024921BA10510016DD66 /* relu_arm.cpp */,
+				F206024A21BA10520016DD66 /* deconvolution_arm.cpp */,
+				F206024B21BA10520016DD66 /* convolution_arm.cpp */,
+				F206024C21BA10520016DD66 /* dequantize_arm.cpp */,
+				F206024D21BA10520016DD66 /* lrn_arm.h */,
+				F206024E21BA10520016DD66 /* convolution_1x1.h */,
+				F206024F21BA10520016DD66 /* convolutiondepthwise_arm.h */,
+				F206025021BA10520016DD66 /* batchnorm_arm.cpp */,
+				F206025121BA10520016DD66 /* convolutiondepthwise_arm.cpp */,
+				F206025221BA10520016DD66 /* innerproduct_arm.h */,
+				F206025321BA10520016DD66 /* dequantize_arm.h */,
+				F206025421BA10520016DD66 /* bias_arm.h */,
+				F206025521BA10520016DD66 /* convolution_1x1_int8.h */,
+				F206025621BA10520016DD66 /* convolution_5x5.h */,
+				F206025721BA10520016DD66 /* softmax_arm.h */,
+				F206025821BA10520016DD66 /* softmax_arm.cpp */,
+				F206025921BA10520016DD66 /* convolution_2x2.h */,
+				F206025A21BA10520016DD66 /* convolutiondepthwise_3x3.h */,
+				F206025B21BA10520016DD66 /* quantize_arm.h */,
+				F206025C21BA10520016DD66 /* quantize_arm.cpp */,
+				F206025D21BA10520016DD66 /* convolutiondepthwise_3x3_int8.h */,
+				F206025E21BA10520016DD66 /* pooling_2x2.h */,
+				F206025F21BA10520016DD66 /* eltwise_arm.cpp */,
+				F206026021BA10520016DD66 /* lrn_arm.cpp */,
+				F206026121BA10520016DD66 /* bias_arm.cpp */,
+				F206026221BA10520016DD66 /* sigmoid_arm.h */,
+				F206026321BA10520016DD66 /* innerproduct_arm.cpp */,
+				F206026421BA10520016DD66 /* convolution_3x3.h */,
+				F206026521BA10520016DD66 /* deconvolution_4x4.h */,
+				F206026621BA10520016DD66 /* relu_arm.h */,
+				F206026721BA10520016DD66 /* eltwise_arm.h */,
+				F206026821BA10520016DD66 /* batchnorm_arm.h */,
+				F206026921BA10520016DD66 /* convolution_7x7.h */,
+				F206026A21BA10520016DD66 /* neon_mathfun.h */,
+				F206026B21BA10520016DD66 /* prelu_arm.cpp */,
+				F206026C21BA10520016DD66 /* pooling_3x3.h */,
+				F206026D21BA10520016DD66 /* convolution_3x3_int8.h */,
+				F206026E21BA10520016DD66 /* deconvolution_arm.h */,
+				F206026F21BA10520016DD66 /* scale_arm.h */,
+				F206027021BA10520016DD66 /* clip_arm.cpp */,
+				F206027121BA10520016DD66 /* deconvolutiondepthwise_arm.h */,
+				F206027221BA10520016DD66 /* prelu_arm.h */,
+				F206027321BA10520016DD66 /* convolution_arm.h */,
+				F206027421BA10520016DD66 /* scale_arm.cpp */,
+				F206027521BA10520016DD66 /* absval_arm.cpp */,
+				F206027621BA10520016DD66 /* sigmoid_arm.cpp */,
+				F206027721BA10520016DD66 /* pooling_arm.cpp */,
+				F206027821BA10520016DD66 /* deconvolutiondepthwise_arm.cpp */,
+				F206027921BA10520016DD66 /* clip_arm.h */,
+				F206027A21BA10520016DD66 /* deconvolution_3x3.h */,
+				F206027B21BA10520016DD66 /* absval_arm.h */,
+				F206027C21BA10520016DD66 /* convolution_4x4.h */,
+				F206027D21BA10520016DD66 /* pooling_arm.h */,
+				F206027E21BA10520016DD66 /* convolutiondepthwise_5x5.h */,
+			);
+			path = arm;
+			sourceTree = "<group>";
+		};
 		F21C138321B11D9300FADBB5 = {
 			isa = PBXGroup;
 			children = (
+				F20601C521BA10510016DD66 /* src */,
 				F21C138F21B11D9300FADBB5 /* GMNcnn */,
 				F21C139A21B11D9300FADBB5 /* GMNcnnTests */,
 				F21C138E21B11D9300FADBB5 /* Products */,
@@ -93,7 +782,130 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F206035F21BA10520016DD66 /* mvn.h in Headers */,
+				F206031E21BA10520016DD66 /* exp.h in Headers */,
+				F20602E421BA10520016DD66 /* spp.h in Headers */,
+				F206031021BA10520016DD66 /* yolov3detectionoutput.h in Headers */,
+				F206036621BA10520016DD66 /* binaryop.h in Headers */,
+				F206036E21BA10520016DD66 /* cpu.h in Headers */,
+				F206033F21BA10520016DD66 /* batchnorm_arm.h in Headers */,
+				F206035E21BA10520016DD66 /* innerproduct.h in Headers */,
+				F20602B721BA10520016DD66 /* power.h in Headers */,
+				F206030F21BA10520016DD66 /* argmax.h in Headers */,
+				F206035421BA10520016DD66 /* pooling_arm.h in Headers */,
+				F206034A21BA10520016DD66 /* convolution_arm.h in Headers */,
+				F206035121BA10520016DD66 /* deconvolution_3x3.h in Headers */,
+				F206030421BA10520016DD66 /* convolutiondepthwise_3x3.h in Headers */,
+				F206034121BA10520016DD66 /* neon_mathfun.h in Headers */,
+				F206037E21BA10DF0016DD66 /* layer_registry.h in Headers */,
+				F206030021BA10520016DD66 /* convolution_1x1.h in Headers */,
+				F20602DE21BA10520016DD66 /* absval.h in Headers */,
+				F20602E921BA10520016DD66 /* priorbox.h in Headers */,
+				F20602A721BA10520016DD66 /* layer.h in Headers */,
+				F206034321BA10520016DD66 /* pooling_3x3.h in Headers */,
+				F206032921BA10520016DD66 /* innerproduct_arm.h in Headers */,
+				F20602AD21BA10520016DD66 /* softmax.h in Headers */,
+				F206030221BA10520016DD66 /* convolution_1x1_int8.h in Headers */,
+				F206030921BA10520016DD66 /* sse_mathfun.h in Headers */,
+				F206030B21BA10520016DD66 /* convolution_x86.h in Headers */,
+				F20602DC21BA10520016DD66 /* bias.h in Headers */,
+				F206031421BA10520016DD66 /* bnll.h in Headers */,
+				F206033421BA10520016DD66 /* convolutiondepthwise_3x3_int8.h in Headers */,
+				F20602E021BA10520016DD66 /* slice.h in Headers */,
+				F206036A21BA10520016DD66 /* lrn.h in Headers */,
+				F20602CB21BA10520016DD66 /* batchnorm.h in Headers */,
+				F20602CA21BA10520016DD66 /* psroipooling.h in Headers */,
+				F20602FF21BA10520016DD66 /* crop.h in Headers */,
+				F20602EA21BA10520016DD66 /* lstm.h in Headers */,
+				F206036821BA10520016DD66 /* padding.h in Headers */,
+				F20602B121BA10520016DD66 /* dequantize.h in Headers */,
+				F206034821BA10520016DD66 /* deconvolutiondepthwise_arm.h in Headers */,
+				F20602D921BA10520016DD66 /* instancenorm.h in Headers */,
+				F206033C21BA10520016DD66 /* deconvolution_4x4.h in Headers */,
+				F20602A521BA10520016DD66 /* blob.h in Headers */,
+				F206033B21BA10520016DD66 /* convolution_3x3.h in Headers */,
+				F206034621BA10520016DD66 /* scale_arm.h in Headers */,
+				F20602ED21BA10520016DD66 /* threshold.h in Headers */,
+				F20602FC21BA10520016DD66 /* log.h in Headers */,
+				F206037121BA10520016DD66 /* layer_type.h in Headers */,
+				F20602F421BA10520016DD66 /* convolutiondepthwise.h in Headers */,
+				F20602F121BA10520016DD66 /* tanh.h in Headers */,
+				F206033921BA10520016DD66 /* sigmoid_arm.h in Headers */,
+				F20602C921BA10520016DD66 /* tile.h in Headers */,
+				F206036121BA10520016DD66 /* reduction.h in Headers */,
+				F206033D21BA10520016DD66 /* relu_arm.h in Headers */,
+				F206035021BA10520016DD66 /* clip_arm.h in Headers */,
+				F206035C21BA10520016DD66 /* interp.h in Headers */,
+				F206030D21BA10520016DD66 /* memorydata.h in Headers */,
+				F20602DD21BA10520016DD66 /* prelu.h in Headers */,
+				F206030821BA10520016DD66 /* convolution_3x3.h in Headers */,
+				F206034521BA10520016DD66 /* deconvolution_arm.h in Headers */,
+				F206032D21BA10520016DD66 /* convolution_5x5.h in Headers */,
+				F20602BA21BA10520016DD66 /* roialign.h in Headers */,
+				F206030321BA10520016DD66 /* convolution_5x5.h in Headers */,
+				F20602A221BA10520016DD66 /* net.h in Headers */,
+				F206037A21BA10A30016DD66 /* layer_type_enum.h in Headers */,
+				F206030121BA10520016DD66 /* convolutiondepthwise_x86.h in Headers */,
+				F206031F21BA10520016DD66 /* pooling.h in Headers */,
+				F206035721BA10520016DD66 /* yolodetectionoutput.h in Headers */,
+				F206033021BA10520016DD66 /* convolution_2x2.h in Headers */,
+				F20602B921BA10520016DD66 /* embed.h in Headers */,
+				F206033521BA10520016DD66 /* pooling_2x2.h in Headers */,
+				F206031821BA10520016DD66 /* roipooling.h in Headers */,
+				F20602B221BA10520016DD66 /* permute.h in Headers */,
+				F206035321BA10520016DD66 /* convolution_4x4.h in Headers */,
+				F20602FA21BA10520016DD66 /* elu.h in Headers */,
+				F20602CE21BA10520016DD66 /* relu.h in Headers */,
+				F206032421BA10520016DD66 /* lrn_arm.h in Headers */,
+				F206030621BA10520016DD66 /* convolutiondepthwise_3x3_int8.h in Headers */,
+				F206030C21BA10520016DD66 /* avx_mathfun.h in Headers */,
+				F20602E221BA10520016DD66 /* normalize.h in Headers */,
+				F206032E21BA10520016DD66 /* softmax_arm.h in Headers */,
+				F206032C21BA10520016DD66 /* convolution_1x1_int8.h in Headers */,
+				F20602C321BA10520016DD66 /* rnn.h in Headers */,
+				F206031D21BA10520016DD66 /* detectionoutput.h in Headers */,
+				F206032521BA10520016DD66 /* convolution_1x1.h in Headers */,
+				F206030A21BA10520016DD66 /* convolution_3x3_int8.h in Headers */,
+				F206031121BA10520016DD66 /* sigmoid.h in Headers */,
+				F20602A321BA10520016DD66 /* mat.h in Headers */,
+				F206037321BA10530016DD66 /* benchmark.h in Headers */,
+				F206035B21BA10520016DD66 /* unaryop.h in Headers */,
+				F20602BC21BA10520016DD66 /* input.h in Headers */,
+				F20602F021BA10520016DD66 /* concat.h in Headers */,
+				F206033221BA10520016DD66 /* quantize_arm.h in Headers */,
+				F20602FE21BA10520016DD66 /* reshape.h in Headers */,
+				F206033E21BA10520016DD66 /* eltwise_arm.h in Headers */,
+				F206033121BA10520016DD66 /* convolutiondepthwise_3x3.h in Headers */,
+				F206037821BA10870016DD66 /* platform.h in Headers */,
+				F206035521BA10520016DD66 /* convolutiondepthwise_5x5.h in Headers */,
+				F206037C21BA10CB0016DD66 /* layer_declaration.h in Headers */,
+				F206036521BA10520016DD66 /* split.h in Headers */,
+				F20602D521BA10520016DD66 /* proposal.h in Headers */,
+				F206032621BA10520016DD66 /* convolutiondepthwise_arm.h in Headers */,
+				F206036B21BA10520016DD66 /* opencv.h in Headers */,
+				F206031321BA10520016DD66 /* deconvolutiondepthwise.h in Headers */,
+				F20602AB21BA10520016DD66 /* paramdict.h in Headers */,
+				F20602B021BA10520016DD66 /* quantize.h in Headers */,
+				F20602B621BA10520016DD66 /* scale.h in Headers */,
+				F206031721BA10520016DD66 /* reorg.h in Headers */,
+				F206032A21BA10520016DD66 /* dequantize_arm.h in Headers */,
+				F20602FD21BA10520016DD66 /* clip.h in Headers */,
+				F20602C021BA10520016DD66 /* eltwise.h in Headers */,
+				F20602C521BA10520016DD66 /* shufflechannel.h in Headers */,
+				F206036C21BA10520016DD66 /* allocator.h in Headers */,
+				F206036721BA10520016DD66 /* deconvolution.h in Headers */,
+				F20602A021BA10520016DD66 /* modelbin.h in Headers */,
+				F20602F921BA10520016DD66 /* dropout.h in Headers */,
 				F21C139E21B11D9300FADBB5 /* GMNcnn.h in Headers */,
+				F206035221BA10520016DD66 /* absval_arm.h in Headers */,
+				F206034021BA10520016DD66 /* convolution_7x7.h in Headers */,
+				F206034421BA10520016DD66 /* convolution_3x3_int8.h in Headers */,
+				F206034921BA10520016DD66 /* prelu_arm.h in Headers */,
+				F20602D221BA10520016DD66 /* convolution.h in Headers */,
+				F206036021BA10520016DD66 /* expanddims.h in Headers */,
+				F20602B821BA10520016DD66 /* flatten.h in Headers */,
+				F206032B21BA10520016DD66 /* bias_arm.h in Headers */,
+				F206035621BA10520016DD66 /* squeeze.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +988,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20602A121BA10520016DD66 /* CMakeLists.txt in Resources */,
+				F20602A421BA10520016DD66 /* platform.h.in in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +1007,100 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F206034D21BA10520016DD66 /* sigmoid_arm.cpp in Sources */,
+				F20602E621BA10520016DD66 /* eltwise.cpp in Sources */,
+				F20602A921BA10520016DD66 /* benchmark.cpp in Sources */,
+				F20602D021BA10520016DD66 /* reorg.cpp in Sources */,
+				F20602D721BA10520016DD66 /* elu.cpp in Sources */,
+				F206032221BA10520016DD66 /* convolution_arm.cpp in Sources */,
+				F20602C621BA10520016DD66 /* deconvolution.cpp in Sources */,
+				F20602E121BA10520016DD66 /* lrn.cpp in Sources */,
+				F206035821BA10520016DD66 /* bias.cpp in Sources */,
+				F20602AF21BA10520016DD66 /* dropout.cpp in Sources */,
+				F206030E21BA10520016DD66 /* innerproduct.cpp in Sources */,
+				F206037021BA10520016DD66 /* modelbin.cpp in Sources */,
+				F20602C121BA10520016DD66 /* input.cpp in Sources */,
+				F206032721BA10520016DD66 /* batchnorm_arm.cpp in Sources */,
+				F20602BB21BA10520016DD66 /* dequantize.cpp in Sources */,
+				F20602DF21BA10520016DD66 /* slice.cpp in Sources */,
+				F20602F221BA10520016DD66 /* convolutiondepthwise.cpp in Sources */,
+				F20602EF21BA10520016DD66 /* concat.cpp in Sources */,
+				F20602E521BA10520016DD66 /* proposal.cpp in Sources */,
+				F206031221BA10520016DD66 /* softmax.cpp in Sources */,
+				F206032821BA10520016DD66 /* convolutiondepthwise_arm.cpp in Sources */,
+				F206036221BA10520016DD66 /* absval.cpp in Sources */,
+				F20602CF21BA10520016DD66 /* split.cpp in Sources */,
+				F20602E321BA10520016DD66 /* instancenorm.cpp in Sources */,
+				F206037421BA10530016DD66 /* cpu.cpp in Sources */,
+				F20602C821BA10520016DD66 /* deconvolutiondepthwise.cpp in Sources */,
+				F20602D821BA10520016DD66 /* exp.cpp in Sources */,
+				F20602EE21BA10520016DD66 /* normalize.cpp in Sources */,
+				F206036421BA10520016DD66 /* roialign.cpp in Sources */,
+				F20602C221BA10520016DD66 /* reshape.cpp in Sources */,
+				F20602F821BA10520016DD66 /* mvn.cpp in Sources */,
+				F206033321BA10520016DD66 /* quantize_arm.cpp in Sources */,
+				F20602D421BA10520016DD66 /* permute.cpp in Sources */,
+				F206031C21BA10520016DD66 /* tile.cpp in Sources */,
+				F20602C421BA10520016DD66 /* sigmoid.cpp in Sources */,
+				F20602D121BA10520016DD66 /* roipooling.cpp in Sources */,
+				F20602EB21BA10520016DD66 /* spp.cpp in Sources */,
+				F206037521BA10530016DD66 /* opencv.cpp in Sources */,
+				F206035D21BA10520016DD66 /* unaryop.cpp in Sources */,
+				F206034C21BA10520016DD66 /* absval_arm.cpp in Sources */,
+				F206032321BA10520016DD66 /* dequantize_arm.cpp in Sources */,
+				F20602F721BA10520016DD66 /* power.cpp in Sources */,
+				F206036D21BA10520016DD66 /* allocator.cpp in Sources */,
+				F206034221BA10520016DD66 /* prelu_arm.cpp in Sources */,
+				F206033721BA10520016DD66 /* lrn_arm.cpp in Sources */,
+				F20602A621BA10520016DD66 /* blob.cpp in Sources */,
+				F20602F621BA10520016DD66 /* psroipooling.cpp in Sources */,
+				F20602F321BA10520016DD66 /* rnn.cpp in Sources */,
+				F20602C721BA10520016DD66 /* interp.cpp in Sources */,
+				F206036921BA10520016DD66 /* yolodetectionoutput.cpp in Sources */,
+				F206031921BA10520016DD66 /* threshold.cpp in Sources */,
+				F20602AE21BA10520016DD66 /* squeeze.cpp in Sources */,
+				F20602B321BA10520016DD66 /* batchnorm.cpp in Sources */,
+				F20602D321BA10520016DD66 /* reduction.cpp in Sources */,
+				F206035921BA10520016DD66 /* scale.cpp in Sources */,
+				F206032021BA10520016DD66 /* relu_arm.cpp in Sources */,
+				F20602BD21BA10520016DD66 /* log.cpp in Sources */,
+				F20602A821BA10520016DD66 /* layer.cpp in Sources */,
+				F20602CD21BA10520016DD66 /* expanddims.cpp in Sources */,
+				F20602AC21BA10520016DD66 /* flatten.cpp in Sources */,
+				F20602DB21BA10520016DD66 /* embed.cpp in Sources */,
+				F206032121BA10520016DD66 /* deconvolution_arm.cpp in Sources */,
+				F20602D621BA10520016DD66 /* bnll.cpp in Sources */,
+				F20602BE21BA10520016DD66 /* detectionoutput.cpp in Sources */,
+				F206031A21BA10520016DD66 /* quantize.cpp in Sources */,
+				F206034E21BA10520016DD66 /* pooling_arm.cpp in Sources */,
+				F20602AA21BA10520016DD66 /* net.cpp in Sources */,
+				F206034F21BA10520016DD66 /* deconvolutiondepthwise_arm.cpp in Sources */,
+				F20602F521BA10520016DD66 /* crop.cpp in Sources */,
+				F206031621BA10520016DD66 /* padding.cpp in Sources */,
+				F206030721BA10520016DD66 /* convolution_x86.cpp in Sources */,
+				F20602E721BA10520016DD66 /* prelu.cpp in Sources */,
+				F206036321BA10520016DD66 /* convolution.cpp in Sources */,
+				F206033621BA10520016DD66 /* eltwise_arm.cpp in Sources */,
+				F20602CC21BA10520016DD66 /* tanh.cpp in Sources */,
+				F20602EC21BA10520016DD66 /* lstm.cpp in Sources */,
+				F206033821BA10520016DD66 /* bias_arm.cpp in Sources */,
+				F206037621BA10530016DD66 /* paramdict.cpp in Sources */,
+				F20602FB21BA10520016DD66 /* priorbox.cpp in Sources */,
+				F206035A21BA10520016DD66 /* binaryop.cpp in Sources */,
+				F206031521BA10520016DD66 /* clip.cpp in Sources */,
+				F206037221BA10530016DD66 /* mat_pixel.cpp in Sources */,
+				F206032F21BA10520016DD66 /* softmax_arm.cpp in Sources */,
+				F20602B421BA10520016DD66 /* argmax.cpp in Sources */,
+				F206034B21BA10520016DD66 /* scale_arm.cpp in Sources */,
+				F206033A21BA10520016DD66 /* innerproduct_arm.cpp in Sources */,
+				F20602E821BA10520016DD66 /* pooling.cpp in Sources */,
+				F206036F21BA10520016DD66 /* mat.cpp in Sources */,
+				F206031B21BA10520016DD66 /* yolov3detectionoutput.cpp in Sources */,
+				F20602DA21BA10520016DD66 /* relu.cpp in Sources */,
+				F20602BF21BA10520016DD66 /* memorydata.cpp in Sources */,
+				F206030521BA10520016DD66 /* convolutiondepthwise_x86.cpp in Sources */,
+				F206034721BA10520016DD66 /* clip_arm.cpp in Sources */,
+				F20602B521BA10520016DD66 /* shufflechannel.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +1256,7 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GMNcnn/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,6 +1285,7 @@
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GMNcnn/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
