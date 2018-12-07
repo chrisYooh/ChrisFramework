@@ -6,6 +6,8 @@
 //  Copyright © 2018 杨一凡. All rights reserved.
 //
 
+#import <GMNcnn/mat.h>
+
 #import "ViewController.h"
 
 @interface ViewController ()

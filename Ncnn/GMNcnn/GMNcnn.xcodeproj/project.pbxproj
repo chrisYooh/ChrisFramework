@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F20602A021BA10520016DD66 /* modelbin.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601C621BA10510016DD66 /* modelbin.h */; };
+		F20602A021BA10520016DD66 /* modelbin.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601C621BA10510016DD66 /* modelbin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F20602A121BA10520016DD66 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = F20601C721BA10510016DD66 /* CMakeLists.txt */; };
-		F20602A221BA10520016DD66 /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601C821BA10510016DD66 /* net.h */; };
-		F20602A321BA10520016DD66 /* mat.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601C921BA10510016DD66 /* mat.h */; };
+		F20602A221BA10520016DD66 /* net.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601C821BA10510016DD66 /* net.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F20602A321BA10520016DD66 /* mat.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601C921BA10510016DD66 /* mat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F20602A421BA10520016DD66 /* platform.h.in in Resources */ = {isa = PBXBuildFile; fileRef = F20601CA21BA10510016DD66 /* platform.h.in */; };
-		F20602A521BA10520016DD66 /* blob.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601CB21BA10510016DD66 /* blob.h */; };
+		F20602A521BA10520016DD66 /* blob.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601CB21BA10510016DD66 /* blob.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F20602A621BA10520016DD66 /* blob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601CC21BA10510016DD66 /* blob.cpp */; };
-		F20602A721BA10520016DD66 /* layer.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601CD21BA10510016DD66 /* layer.h */; };
+		F20602A721BA10520016DD66 /* layer.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601CD21BA10510016DD66 /* layer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F20602A821BA10520016DD66 /* layer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601CE21BA10510016DD66 /* layer.cpp */; };
 		F20602A921BA10520016DD66 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601CF21BA10510016DD66 /* benchmark.cpp */; };
 		F20602AA21BA10520016DD66 /* net.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601D021BA10510016DD66 /* net.cpp */; };
-		F20602AB21BA10520016DD66 /* paramdict.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601D121BA10510016DD66 /* paramdict.h */; };
+		F20602AB21BA10520016DD66 /* paramdict.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601D121BA10510016DD66 /* paramdict.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F20602AC21BA10520016DD66 /* flatten.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601D321BA10510016DD66 /* flatten.cpp */; };
 		F20602AD21BA10520016DD66 /* softmax.h in Headers */ = {isa = PBXBuildFile; fileRef = F20601D421BA10510016DD66 /* softmax.h */; };
 		F20602AE21BA10520016DD66 /* squeeze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F20601D521BA10510016DD66 /* squeeze.cpp */; };
@@ -210,20 +210,20 @@
 		F206036821BA10520016DD66 /* padding.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029121BA10520016DD66 /* padding.h */; };
 		F206036921BA10520016DD66 /* yolodetectionoutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029221BA10520016DD66 /* yolodetectionoutput.cpp */; };
 		F206036A21BA10520016DD66 /* lrn.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029321BA10520016DD66 /* lrn.h */; };
-		F206036B21BA10520016DD66 /* opencv.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029421BA10520016DD66 /* opencv.h */; };
-		F206036C21BA10520016DD66 /* allocator.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029521BA10520016DD66 /* allocator.h */; };
+		F206036B21BA10520016DD66 /* opencv.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029421BA10520016DD66 /* opencv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F206036C21BA10520016DD66 /* allocator.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029521BA10520016DD66 /* allocator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F206036D21BA10520016DD66 /* allocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029621BA10520016DD66 /* allocator.cpp */; };
-		F206036E21BA10520016DD66 /* cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029721BA10520016DD66 /* cpu.h */; };
+		F206036E21BA10520016DD66 /* cpu.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029721BA10520016DD66 /* cpu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F206036F21BA10520016DD66 /* mat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029821BA10520016DD66 /* mat.cpp */; };
 		F206037021BA10520016DD66 /* modelbin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029921BA10520016DD66 /* modelbin.cpp */; };
-		F206037121BA10520016DD66 /* layer_type.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029A21BA10520016DD66 /* layer_type.h */; };
+		F206037121BA10520016DD66 /* layer_type.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029A21BA10520016DD66 /* layer_type.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F206037221BA10530016DD66 /* mat_pixel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029B21BA10520016DD66 /* mat_pixel.cpp */; };
-		F206037321BA10530016DD66 /* benchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029C21BA10520016DD66 /* benchmark.h */; };
+		F206037321BA10530016DD66 /* benchmark.h in Headers */ = {isa = PBXBuildFile; fileRef = F206029C21BA10520016DD66 /* benchmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F206037421BA10530016DD66 /* cpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029D21BA10520016DD66 /* cpu.cpp */; };
 		F206037521BA10530016DD66 /* opencv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029E21BA10520016DD66 /* opencv.cpp */; };
 		F206037621BA10530016DD66 /* paramdict.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F206029F21BA10520016DD66 /* paramdict.cpp */; };
-		F206037821BA10870016DD66 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037721BA10870016DD66 /* platform.h */; };
-		F206037A21BA10A30016DD66 /* layer_type_enum.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037921BA10A30016DD66 /* layer_type_enum.h */; };
+		F206037821BA10870016DD66 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037721BA10870016DD66 /* platform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F206037A21BA10A30016DD66 /* layer_type_enum.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037921BA10A30016DD66 /* layer_type_enum.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F206037C21BA10CB0016DD66 /* layer_declaration.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037B21BA10CB0016DD66 /* layer_declaration.h */; };
 		F206037E21BA10DF0016DD66 /* layer_registry.h in Headers */ = {isa = PBXBuildFile; fileRef = F206037D21BA10DF0016DD66 /* layer_registry.h */; };
 		F21C139721B11D9300FADBB5 /* GMNcnn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21C138D21B11D9300FADBB5 /* GMNcnn.framework */; };
@@ -782,12 +782,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F206037821BA10870016DD66 /* platform.h in Headers */,
+				F20602AB21BA10520016DD66 /* paramdict.h in Headers */,
+				F206036B21BA10520016DD66 /* opencv.h in Headers */,
+				F20602A221BA10520016DD66 /* net.h in Headers */,
+				F20602A021BA10520016DD66 /* modelbin.h in Headers */,
+				F20602A321BA10520016DD66 /* mat.h in Headers */,
+				F20602A721BA10520016DD66 /* layer.h in Headers */,
+				F206037121BA10520016DD66 /* layer_type.h in Headers */,
+				F206037A21BA10A30016DD66 /* layer_type_enum.h in Headers */,
+				F206036E21BA10520016DD66 /* cpu.h in Headers */,
+				F20602A521BA10520016DD66 /* blob.h in Headers */,
+				F206037321BA10530016DD66 /* benchmark.h in Headers */,
+				F206036C21BA10520016DD66 /* allocator.h in Headers */,
 				F206035F21BA10520016DD66 /* mvn.h in Headers */,
 				F206031E21BA10520016DD66 /* exp.h in Headers */,
 				F20602E421BA10520016DD66 /* spp.h in Headers */,
 				F206031021BA10520016DD66 /* yolov3detectionoutput.h in Headers */,
 				F206036621BA10520016DD66 /* binaryop.h in Headers */,
-				F206036E21BA10520016DD66 /* cpu.h in Headers */,
 				F206033F21BA10520016DD66 /* batchnorm_arm.h in Headers */,
 				F206035E21BA10520016DD66 /* innerproduct.h in Headers */,
 				F20602B721BA10520016DD66 /* power.h in Headers */,
@@ -801,7 +813,6 @@
 				F206030021BA10520016DD66 /* convolution_1x1.h in Headers */,
 				F20602DE21BA10520016DD66 /* absval.h in Headers */,
 				F20602E921BA10520016DD66 /* priorbox.h in Headers */,
-				F20602A721BA10520016DD66 /* layer.h in Headers */,
 				F206034321BA10520016DD66 /* pooling_3x3.h in Headers */,
 				F206032921BA10520016DD66 /* innerproduct_arm.h in Headers */,
 				F20602AD21BA10520016DD66 /* softmax.h in Headers */,
@@ -822,12 +833,10 @@
 				F206034821BA10520016DD66 /* deconvolutiondepthwise_arm.h in Headers */,
 				F20602D921BA10520016DD66 /* instancenorm.h in Headers */,
 				F206033C21BA10520016DD66 /* deconvolution_4x4.h in Headers */,
-				F20602A521BA10520016DD66 /* blob.h in Headers */,
 				F206033B21BA10520016DD66 /* convolution_3x3.h in Headers */,
 				F206034621BA10520016DD66 /* scale_arm.h in Headers */,
 				F20602ED21BA10520016DD66 /* threshold.h in Headers */,
 				F20602FC21BA10520016DD66 /* log.h in Headers */,
-				F206037121BA10520016DD66 /* layer_type.h in Headers */,
 				F20602F421BA10520016DD66 /* convolutiondepthwise.h in Headers */,
 				F20602F121BA10520016DD66 /* tanh.h in Headers */,
 				F206033921BA10520016DD66 /* sigmoid_arm.h in Headers */,
@@ -843,8 +852,6 @@
 				F206032D21BA10520016DD66 /* convolution_5x5.h in Headers */,
 				F20602BA21BA10520016DD66 /* roialign.h in Headers */,
 				F206030321BA10520016DD66 /* convolution_5x5.h in Headers */,
-				F20602A221BA10520016DD66 /* net.h in Headers */,
-				F206037A21BA10A30016DD66 /* layer_type_enum.h in Headers */,
 				F206030121BA10520016DD66 /* convolutiondepthwise_x86.h in Headers */,
 				F206031F21BA10520016DD66 /* pooling.h in Headers */,
 				F206035721BA10520016DD66 /* yolodetectionoutput.h in Headers */,
@@ -867,8 +874,6 @@
 				F206032521BA10520016DD66 /* convolution_1x1.h in Headers */,
 				F206030A21BA10520016DD66 /* convolution_3x3_int8.h in Headers */,
 				F206031121BA10520016DD66 /* sigmoid.h in Headers */,
-				F20602A321BA10520016DD66 /* mat.h in Headers */,
-				F206037321BA10530016DD66 /* benchmark.h in Headers */,
 				F206035B21BA10520016DD66 /* unaryop.h in Headers */,
 				F20602BC21BA10520016DD66 /* input.h in Headers */,
 				F20602F021BA10520016DD66 /* concat.h in Headers */,
@@ -876,15 +881,12 @@
 				F20602FE21BA10520016DD66 /* reshape.h in Headers */,
 				F206033E21BA10520016DD66 /* eltwise_arm.h in Headers */,
 				F206033121BA10520016DD66 /* convolutiondepthwise_3x3.h in Headers */,
-				F206037821BA10870016DD66 /* platform.h in Headers */,
 				F206035521BA10520016DD66 /* convolutiondepthwise_5x5.h in Headers */,
 				F206037C21BA10CB0016DD66 /* layer_declaration.h in Headers */,
 				F206036521BA10520016DD66 /* split.h in Headers */,
 				F20602D521BA10520016DD66 /* proposal.h in Headers */,
 				F206032621BA10520016DD66 /* convolutiondepthwise_arm.h in Headers */,
-				F206036B21BA10520016DD66 /* opencv.h in Headers */,
 				F206031321BA10520016DD66 /* deconvolutiondepthwise.h in Headers */,
-				F20602AB21BA10520016DD66 /* paramdict.h in Headers */,
 				F20602B021BA10520016DD66 /* quantize.h in Headers */,
 				F20602B621BA10520016DD66 /* scale.h in Headers */,
 				F206031721BA10520016DD66 /* reorg.h in Headers */,
@@ -892,9 +894,7 @@
 				F20602FD21BA10520016DD66 /* clip.h in Headers */,
 				F20602C021BA10520016DD66 /* eltwise.h in Headers */,
 				F20602C521BA10520016DD66 /* shufflechannel.h in Headers */,
-				F206036C21BA10520016DD66 /* allocator.h in Headers */,
 				F206036721BA10520016DD66 /* deconvolution.h in Headers */,
-				F20602A021BA10520016DD66 /* modelbin.h in Headers */,
 				F20602F921BA10520016DD66 /* dropout.h in Headers */,
 				F21C139E21B11D9300FADBB5 /* GMNcnn.h in Headers */,
 				F206035221BA10520016DD66 /* absval_arm.h in Headers */,
